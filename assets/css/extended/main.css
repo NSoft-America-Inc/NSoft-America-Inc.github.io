@@ -1,61 +1,55 @@
-/* NSoft America Ultimate Obsidian Tech CSS */
+/* NSoft America High-Precision Obsidian CSS */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
+/* 기본 및 다크 모드 통합 변수 (항상 다크 테마 유지) */
 :root {
     --primary: #00d2ff;
-    --theme: #0a0c10; /* 기본 배경을 깊은 어둠으로 설정 */
+    --theme: #0b0e11;
     --entry: #161b22;
     --secondary: #8b949e;
     --tertiary: #21262d;
-    --content: #f0f6fc;
-    --nav-bg: #0a0c10;
+    --content: #f8f9fa;
+    --nav-bg: #0b0e11;
 }
 
-/* 다크 모드는 더 일관되게 유지 */
-.dark {
-    --theme: #010409;
-    --entry: #0d1117;
-    --nav-bg: #010409;
-}
-
-body {
+/* 시스템 설정 무시하고 다크 모드 강제 적용 레이아웃 */
+body, html {
+    background-color: var(--theme) !important;
+    color: var(--content) !important;
     font-family: 'Pretendard', sans-serif;
-    background-color: var(--theme);
-    color: var(--content);
-    -webkit-font-smoothing: antialiased;
 }
 
-/* Header Re-design: High-Gloss Obsidian */
+/* Header: Darkest Solid Background (No White!) */
 .header {
     background: var(--nav-bg) !important;
-    border-bottom: 1px solid rgba(0, 210, 255, 0.2); /* 은은한 네온 가이드라인 */
+    border-bottom: 2px solid var(--primary) !important;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
+/* Logo & Nav Links: Super Bold & Bright on Dark */
 .logo a {
-    font-weight: 800 !important;
+    font-weight: 900 !important;
     font-size: 1.8rem !important;
-    background: linear-gradient(135deg, #ffffff 0%, #00d2ff 100%); /* 그라데이션 복구 */
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -1.5px;
+    background: linear-gradient(135deg, #ffffff 30%, #00d2ff 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: #ffffff !important; /* 그라데이션 미지원 시 화이트 */
 }
 
-/* Nav Links: Ultra Crisp */
 #menu a {
-    font-weight: 700 !important;
-    color: #ffffff !important; /* 항상 흰색 강제 */
+    font-weight: 800 !important;
+    color: #ffffff !important; /* 메인 메뉴 항상 순백색 */
     font-size: 1.1rem !important;
     padding: 0.8rem 1.2rem !important;
-    transition: all 0.3s ease;
+    opacity: 1 !important;
 }
 
 #menu a:hover {
     color: var(--primary) !important;
-    text-shadow: 0 0 15px rgba(0, 210, 255, 0.6);
+    text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
 }
 
 /* Post Cards */
@@ -63,45 +57,19 @@ body {
     background: var(--entry) !important;
     border: 1px solid rgba(255, 255, 255, 0.05) !important;
     border-radius: 12px !important;
-    padding: 2.5rem !important;
-    margin-bottom: 2rem !important;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
-}
-
-.post-entry:hover {
-    border-color: var(--primary) !important;
-    box-shadow: 0 0 20px rgba(0, 210, 255, 0.1) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
 }
 
 .post-title {
-    font-size: 1.8rem !important;
-    font-weight: 800 !important;
     color: #ffffff !important;
+    font-weight: 800 !important;
 }
 
-/* Profile Mode (Hero Section) */
 .profile_inner h1 {
     font-size: 4.5rem;
     font-weight: 900;
-    line-height: 1.1;
-    background: linear-gradient(135deg, #ffffff 20%, #00d2ff 100%);
+    background: linear-gradient(135deg, #ffffff 40%, #00d2ff 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: -3px;
-    margin-bottom: 1.5rem;
-}
-
-.profile_inner .subtitle {
-    color: var(--secondary) !important;
-    font-size: 1.4rem !important;
-    font-weight: 500;
-}
-
-/* Pagination */
-.pagination a {
-    background: var(--entry) !important;
-    color: #ffffff !important;
-    border: 1px solid var(--primary) !important;
-    font-weight: 700;
 }
