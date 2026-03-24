@@ -1,7 +1,7 @@
 ---
 title: "클로드코드(Claude Code) 스킬 완벽 가이드: 당신의 AI를 '대마법사'로 진화시키는 방법"
 date: 2026-03-23
-weight: 20
+weight: 10
 draft: false
 tags: ["claudecode", "ai-agent", "skills", "automation", "harry-potter"]
 categories: ["AI"]
