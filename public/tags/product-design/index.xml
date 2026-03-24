@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Product-Design on NSoft America</title>
+    <link>https://nsoft-america-inc.github.io/tags/product-design/</link>
+    <description>Recent content in Product-Design on NSoft America</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nsoft-america-inc.github.io/tags/product-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>안티그래비티(AntiGravity) 상위 1%처럼 활용하기: 4단계 FLOW 프레임워크</title>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-24-antigravity-flow-framework/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-24-antigravity-flow-framework/</guid>
+      <description>안티그래비티를 단순한 대화형 도구로 쓰고 계신가요? 아이디어를 프로덕트로 바꾸는 4단계 FLOW 프레임워크를 통해 생산성을 10배 높이는 전략을 공개합니다.</description>
+    </item>
+  </channel>
+</rss>
