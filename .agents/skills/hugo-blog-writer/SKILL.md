@@ -74,12 +74,7 @@ author: "NSoft America"
 ### Guidelines
 1. **Headings**: Start from `##` (H2). Never use `#` (H1) in body.
 2. **Code Blocks**: Always specify language (e.g. ` ```bash `).
-3. **Mandatory Visuals (REQUIRED)**:
-   - Every post **must include at least ONE high-quality illustrative image** (Hero Image).
-   - For complex technical guides, include 2-3 images to explain workflows or architecture.
-   - Use the `generate_image` tool with descriptive prompts (e.g., "3D high-tech visualization of [topic], dark mode, neon accents").
-   - **Storage**: Save images in `static/images/posts/YYYY-MM-DD/filename.png`.
-   - **Reference**: Use `![Alt text/Caption](/images/posts/YYYY-MM-DD/filename.png)` in the body.
+3. **Images**: Store in `static/images/` and reference as `![alt](/images/filename.png)`.
 4. **Depth**: Aim for ~7,000 characters for deep technical posts. Expand with examples, deep dives, or FAQ sections.
 5. **Redundancy**: Never repeat the `description` text in the `Overview`. Ensure the lead is fresh.
 
