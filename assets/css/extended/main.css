@@ -1,104 +1,61 @@
-/* NSoft America Navy Noble Light Tech CSS */
+/* NSoft America Header-Focused Dark Blue Tech CSS */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 :root {
-    --primary: #0056b3; /* 신뢰감 있는 다크 블루 */
-    --theme: #ffffff;
-    --entry: #f8f9fa;
-    --secondary: #495057;
-    --tertiary: #dee2e6;
-    --content: #002d5b; /* 딥 네이비 블루 */
+    --primary: #003366; /* 기본 다크 블루 */
+    --theme: #f8f9fa;   /* 깔끔한 라이트 배경 */
+    --content: #002244; /* 가장 진한 딥 네이비 */
     --nav-bg: #ffffff;
 }
 
-/* 시스템 설정과 상관없이 깔끔한 라이트 테마 유지 */
-body, html {
-    background-color: var(--theme) !important;
-    color: var(--content) !important;
+body {
     font-family: 'Pretendard', sans-serif;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--theme);
+    color: var(--content);
 }
 
-/* Header: Clean & Sharp */
+/* Header Re-design: Focus on Title and Menu Visibility */
 .header {
     background: var(--nav-bg) !important;
-    border-bottom: 2px solid var(--primary) !important;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-bottom: 2.5px solid #002244 !important; /* 하단 경계선도 다크 블루로 강조 */
 }
 
-/* 좌측 상단 로고: 다크 블루 그라데이션 */
+/* 좌측 상단 로고 전용 다크 블루 그라데이션 */
 .logo a {
-    font-weight: 850 !important;
+    font-weight: 900 !important;
     font-size: 1.8rem !important;
-    background: linear-gradient(135deg, #002d5b 0%, #0056b3 100%) !important;
+    /* 다크 네이비 -> 다크 블루 그라데이션 */
+    background: linear-gradient(135deg, #001a33 0%, #004080 100%) !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    letter-spacing: -1.5px;
+    color: #002244 !important; /* 그라데이션 미지원 대응 */
+    letter-spacing: -2px;
 }
 
-/* 모든 메뉴 글자: 다크 블루 */
-#menu a {
-    font-weight: 750 !important;
-    color: var(--content) !important;
-    font-size: 1.1rem !important;
-    padding: 0.8rem 1.2rem !important;
+/* 우측 상단 메뉴 글자 전용 최강 다크 블루 */
+#menu a, .menu a {
+    color: #002244 !important; /* 가장 어둡고 선명한 네이비 블루 */
+    font-weight: 850 !important; /* 글자 두께를 더 두껍게 */
+    font-size: 1.15rem !important; /* 글자 크기 살짝 확대 */
+    padding: 0.5rem 1.2rem !important;
+    opacity: 1 !important;
     transition: all 0.2s ease;
 }
 
-#menu a:hover {
-    color: var(--primary) !important;
-    transform: translateY(-1px);
+#menu a:hover, .menu a:hover {
+    color: #0056b3 !important; /* 호버 시 약간 밝은 블루 */
+    text-decoration: underline !important;
 }
 
-/* 모든 본문 및 제목: 다크 블루 */
-.post-title, .post-content, .post-meta, h1, h2, h3 {
-    color: var(--content) !important;
-}
-
+/* 포스트 본문 및 타이틀 가독성 유지 */
 .post-title {
+    color: #001a33 !important;
     font-weight: 800 !important;
 }
 
-/* Post Cards */
-.post-entry {
-    background: var(--entry) !important;
-    border: 1px solid rgba(0, 45, 91, 0.1) !important;
-    border-radius: 12px !important;
-    padding: 2.5rem !important;
-    margin-bottom: 2.5rem !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
-    transition: transform 0.3s ease;
-}
-
-.post-entry:hover {
-    transform: translateY(-5px);
-    border-color: var(--primary) !important;
-    box-shadow: 0 10px 30px rgba(0, 45, 91, 0.08) !important;
-}
-
-/* Profile Mode Heading */
 .profile_inner h1 {
     font-size: 4.5rem;
     font-weight: 950;
-    background: linear-gradient(135deg, #002d5b 20%, #0056b3 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -3px;
-}
-
-.profile_inner .subtitle {
-    color: var(--secondary) !important;
-}
-
-/* Pagination */
-.pagination a {
-    background: var(--entry) !important;
-    color: var(--content) !important;
-    border: 1px solid var(--primary) !important;
-    font-weight: 800;
+    color: #001a33 !important;
 }
