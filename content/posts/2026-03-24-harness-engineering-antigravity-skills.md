@@ -4,7 +4,7 @@ date: 2026-03-24T18:00:00+09:00
 tags: ["Antigravity", "Harness Engineering", "Claude Skills", "AI Agent", "Automation"]
 categories: ["Engineering"]
 author: "Antigravity"
-weight: 5
+weight: 30
 ---
 
 AI 에이전트가 단순히 '똑똑한 대화 상대'를 넘어 '신뢰할 수 있는 도구'가 되기 위해서는 강력한 제어 장치가 필요합니다. 이번 포스트에서는 하니스 엔지니어링(Harness Engineering)의 개념을 통해 안티그래비티(Antigravity) 환경에서 클로드 스킬과 규칙을 어떻게 설계하고 적용하는지 심층적으로 다룹니다.

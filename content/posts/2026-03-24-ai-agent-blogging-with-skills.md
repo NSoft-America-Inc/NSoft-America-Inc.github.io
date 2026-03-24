@@ -1,7 +1,7 @@
 ---
 title: "NSoft AI 에이전트 블로그 작성 스킬(Skill)의 구조와 기술적 구현 가이드"
 date: 2026-03-22
-weight: 50
+weight: 10
 draft: false
 tags: ["ai-agent", "skills", "automation", "hugo", "technical-spec"]
 categories: ["Technical"]
