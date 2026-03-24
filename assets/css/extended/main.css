@@ -1,74 +1,74 @@
-/* NSoft America High-Precision Obsidian CSS */
+/* NSoft America Unified Premium Dark Header CSS */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
-/* 기본 및 다크 모드 통합 변수 (항상 다크 테마 유지) */
 :root {
-    --primary: #00d2ff;
-    --theme: #0b0e11;
+    --primary: #00d2ff; /* 시안 블루 */
+    --theme: #0b0e11;   /* 딥 블랙 */
     --entry: #161b22;
     --secondary: #8b949e;
-    --tertiary: #21262d;
     --content: #f8f9fa;
     --nav-bg: #0b0e11;
 }
 
-/* 시스템 설정 무시하고 다크 모드 강제 적용 레이아웃 */
-body, html {
-    background-color: var(--theme) !important;
-    color: var(--content) !important;
+/* 모든 페이지 배경 및 텍스트 설정 */
+body {
     font-family: 'Pretendard', sans-serif;
+    background-color: var(--theme);
+    color: var(--content);
+    margin: 0;
 }
 
-/* Header: Darkest Solid Background (No White!) */
+/* 🏆 모든 페이지 상단 헤더: 스크린샷 디자인으로 통일 */
 .header {
-    background: var(--nav-bg) !important;
-    border-bottom: 2px solid var(--primary) !important;
+    background: #0b0e11 !important; /* 강제 블랙 고정 */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-/* Logo & Nav Links: Super Bold & Bright on Dark */
+/* 좌측 로고: NSoft(White) + America(Cyan) */
 .logo a {
     font-weight: 900 !important;
-    font-size: 1.8rem !important;
-    background: linear-gradient(135deg, #ffffff 30%, #00d2ff 100%) !important;
+    font-size: 1.7rem !important;
+    background: linear-gradient(90deg, #ffffff 45%, #00d2ff 65%) !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    color: #ffffff !important; /* 그라데이션 미지원 시 화이트 */
+    letter-spacing: -1.2px;
 }
 
-#menu a {
+/* 우측 메뉴: 두꺼운 화이트 */
+#menu a, .menu a {
+    color: #ffffff !important;
     font-weight: 800 !important;
-    color: #ffffff !important; /* 메인 메뉴 항상 순백색 */
     font-size: 1.1rem !important;
-    padding: 0.8rem 1.2rem !important;
+    padding: 0.5rem 1rem !important;
     opacity: 1 !important;
+    transition: color 0.2s ease;
 }
 
-#menu a:hover {
+#menu a:hover, .menu a:hover {
     color: var(--primary) !important;
-    text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
 }
 
-/* Post Cards */
+/* 포스트 카드 및 본문 디자인 유지 */
 .post-entry {
     background: var(--entry) !important;
-    border: 1px solid rgba(255, 255, 255, 0.05) !important;
     border-radius: 12px !important;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
 .post-title {
-    color: #ffffff !important;
     font-weight: 800 !important;
+    color: #ffffff !important;
 }
 
+/* 홈 화면 히어로 섹션 */
 .profile_inner h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 900;
-    background: linear-gradient(135deg, #ffffff 40%, #00d2ff 100%);
+    background: linear-gradient(135deg, #ffffff 30%, #00d2ff 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
