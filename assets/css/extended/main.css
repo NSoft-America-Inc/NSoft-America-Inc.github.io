@@ -1,102 +1,98 @@
-/* NSoft America Deep Modern Tech CSS */
+/* NSoft America High-Contrast Modern Tech CSS */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 :root {
     --primary: #00d2ff;
     --theme: #f7f9fc;
     --entry: #ffffff;
-    --secondary: #607d8b;
-    --tertiary: #f1f3f5;
-    --content: #2c3e50;
-    --nav-bg: rgba(255, 255, 255, 0.85);
+    --secondary: #495057;
+    --tertiary: #dee2e6;
+    --content: #212529;
+    --nav-bg: #ffffff; /* 라이트 모드는 흰색 솔리드 배경 */
 }
 
 .dark {
     --primary: #00d2ff;
-    --theme: #0b0e11;
-    --entry: #161a1d;
-    --secondary: #adb5bd;
-    --tertiary: #212529;
-    --content: #f8f9fa;
-    --nav-bg: rgba(11, 14, 17, 0.85);
+    --theme: #050607; /* 더 어두운 블랙 */
+    --entry: #121417; /* 선명한 카드 배경 */
+    --secondary: #dee2e6;
+    --tertiary: #2b3035;
+    --content: #ffffff; /* 완전 화이트 텍스트 */
+    --nav-bg: #050607; /* 다크 모드 솔리드 헤더 배경 */
 }
 
 body {
     font-family: 'Pretendard', sans-serif;
     background-color: var(--theme);
     color: var(--content);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-/* Header: Crystal Clear & High Contrast */
+/* Header: Highest Contrast & Solid Background */
 .header {
     background: var(--nav-bg) !important;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid var(--primary); /* 하단 보더 강조 */
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .logo a {
-    font-weight: 900 !important;
-    font-size: 1.6rem !important;
-    background: linear-gradient(135deg, #ffffff 0%, #00d2ff 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -1px;
+    font-weight: 800 !important;
+    font-size: 1.8rem !important;
+    color: var(--content) !important; /* 그라데이션 대신 선명한 화이트/블랙 사용 */
+    letter-spacing: -1.5px;
 }
 
+/* Nav Links: Bold & Bright */
 #menu a {
     font-weight: 700 !important;
     color: var(--content) !important;
-    opacity: 0.8;
-    transition: all 0.3s ease;
+    font-size: 1.1rem !important;
+    padding: 0.8rem 1.2rem !important;
+    opacity: 1 !important; /* 투명도 제거 */
 }
 
 #menu a:hover {
-    opacity: 1;
     color: var(--primary) !important;
-    text-shadow: 0 0 8px rgba(0, 210, 255, 0.4);
+}
+
+/* Pagination: Large and clear */
+.pagination a {
+    background: var(--entry) !important;
+    color: var(--content) !important;
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--primary) !important;
+    font-weight: 700;
 }
 
 /* Post Cards */
 .post-entry {
     background: var(--entry) !important;
-    border: 1px solid rgba(0, 210, 255, 0.05) !important;
-    border-radius: 20px !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-}
-
-.dark .post-entry {
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
-    border: 1px solid rgba(255, 255, 255, 0.03) !important;
-}
-
-.post-entry:hover {
-    transform: translateY(-8px) scale(1.02);
-    border-color: var(--primary) !important;
-    box-shadow: 0 20px 60px rgba(0, 210, 255, 0.15) !important;
+    border-radius: 15px !important;
+    padding: 2.5rem !important;
+    margin-bottom: 2.5rem !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
 }
 
 .post-title {
-    color: var(--content) !important;
+    font-size: 1.9rem !important;
     font-weight: 800 !important;
+    color: var(--content) !important;
+    margin-bottom: 1rem;
 }
 
-.post-entry:hover .post-title {
-    color: var(--primary) !important;
+.post-meta {
+    font-weight: 600;
+    color: var(--secondary) !important;
 }
 
-/* Profile Mode */
+/* Profile Mode Heading */
 .profile_inner h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 900;
-    letter-spacing: -2px;
-    background: linear-gradient(135deg, #ffffff 30%, #00d2ff 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--content) !important;
+    letter-spacing: -3px;
 }

@@ -2,6 +2,7 @@ baseURL = "https://nsoft-america-inc.github.io/"
 languageCode = "en-us"
 title = "NSoft America"
 theme = "PaperMod"
+paginate = 4
 
 [params]
   description = "NSoft America Tech Blog"
