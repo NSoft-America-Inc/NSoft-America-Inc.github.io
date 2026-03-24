@@ -1,7 +1,6 @@
 ---
 title: "NSoft America 기술 블로그 기여 가이드: 환경 설정부터 첫 포스팅 배포까지 (Mac/Windows)"
-date: 2026-03-23
-weight: 1
+date: 2026-03-24
 draft: false
 tags: ["guide", "hugo", "github-pages", "collaboration", "onboarding"]
 categories: ["General"]
