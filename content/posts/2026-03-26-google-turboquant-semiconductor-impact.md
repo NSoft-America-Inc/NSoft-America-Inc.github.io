@@ -7,20 +7,12 @@ tags: ["AI", "Semiconductor", "Google", "TurboQuant", "MarketAnalysis"]
 categories: ["News"]
 description: "구글 리서치가 발표한 KV 캐시 압축 알고리즘 'TurboQuant'가 반도체 시장에 던진 파장과 그 기술적 실체를 심층 분석합니다."
 author: "NSoft America"
-cover:
-    image: "/images/turboquant-cover.png"
-    alt: "Google TurboQuant Cover Image"
-    caption: "Google TurboQuant: 혁신적인 AI 모델 압축 알고리즘"
-    relative: false
 ---
-
-![TurboQuant](/images/turboquant-cover.png)
 
 ## Overview
 
-구글 리서치가 발표한 TurboQuant 기술의 핵심과 시장 반응을 한눈에 요약한 인포그래픽입니다.
-
-![TurboQuant Infographic](/images/turboquant-infographic.png)
+![TurboQuant Infographic](/images/turboquant-infographic-ko.png)
+*Google TurboQuant: 혁신적인 AI 모델 압축 알고리즘과 시장의 반응 분석*
 
 2026년 3월 25일(현지시간), 전 세계 반도체 시장은 구글 리서치(Google Research)의 발표 하나로 크게 요동쳤습니다. 구글이 ICLR 2026 컨퍼런스에서 발표할 예정인 새로운 AI 모델 압축 알고리즘, **'TurboQuant'**가 그 주인공입니다.
 
