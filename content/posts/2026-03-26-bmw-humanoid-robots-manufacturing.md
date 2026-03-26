@@ -1,7 +1,7 @@
 ---
 title: "BMW, 유럽 최초 휴머노이드 로봇 생산 라인 전격 투입: '피지컬 AI' 시대의 서막"
 date: 2026-03-26T14:45:00-05:00
-weight: 30
+weight: 3
 draft: false
 tags: ["BMW", "Humanoid", "Robotics", "PhysicalAI", "Manufacturing"]
 categories: ["News"]

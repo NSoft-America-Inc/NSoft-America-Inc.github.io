@@ -1,7 +1,7 @@
 ---
 title: "멀티모달 AI: 복잡한 금융 워크플로우 자동화의 새로운 전술"
 date: 2026-03-26T14:30:00-05:00
-weight: 40
+weight: 4
 draft: false
 tags: ["MultimodalAI", "FinanceAutomation", "Gemini", "AI-Agents", "DigitalTransformation"]
 categories: ["News"]

@@ -1,7 +1,7 @@
 ---
 title: "Google의 ‘TurboQuant’ 충격: AI 효율의 극대화가 왜 반도체 주가를 흔들었는가?"
 date: 2026-03-26T09:00:00-05:00
-weight: 60
+weight: 6
 draft: false
 tags: ["AI", "Semiconductor", "Google", "TurboQuant", "MarketAnalysis"]
 categories: ["News"]

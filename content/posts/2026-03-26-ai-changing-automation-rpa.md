@@ -1,7 +1,7 @@
 ---
 title: "RPA는 여전히 중요하다, 하지만 AI가 자동화의 판도를 뒤바꾸고 있다"
 date: 2026-03-26T10:00:00-05:00
-weight: 50
+weight: 5
 draft: false
 tags: ["RPA", "AI", "IntelligentAutomation", "Hyperautomation", "FutureTech"]
 categories: ["News"]

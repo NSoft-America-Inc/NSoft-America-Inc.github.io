@@ -1,7 +1,7 @@
 ---
 title: "앤스로픽(Anthropic)이 제시하는 '장기 실행 AI 에이전트'의 새로운 청사진"
 date: 2026-03-26T16:05:00-05:00
-weight: 10
+weight: 1
 draft: false
 tags: ["Anthropic", "Claude", "AI-Agents", "ComputerUse", "SoftwareEngineering", "Automation"]
 categories: ["Tech"]

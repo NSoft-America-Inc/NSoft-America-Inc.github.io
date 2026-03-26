@@ -1,7 +1,7 @@
 ---
 title: "위험 지역을 지키는 '눈과 손': 에이전틱 AI와 로봇공학의 혁신적 만남"
 date: 2026-03-26T15:05:00-05:00
-weight: 20
+weight: 2
 draft: false
 tags: ["Robotics", "DangerousEnvironments", "AI-Agents", "ADLINK", "NobleMachines", "IndustrialAI"]
 categories: ["News"]
