@@ -148,15 +148,17 @@ h1.post-title {
 }
 
 .post-tags a:hover {
-    background: var(--primary) !important;
-    color: #0b0e11 !important;
+    background: #343b42 !important; /* 은은하게 밝아지는 다크 그레이 */
+    color: var(--primary) !important;
     border-color: var(--primary) !important;
+    transform: translateY(-2px);
 }
 
 /* 다음/이전 글 박스 개별 링크 호버링: 흰색 대신 은은하게 밝아지는 다크 그레이 적용 */
 .paginav a:hover {
     background: #343b42 !important; /* 기존 #2a2f35 보다 아주 살짝 밝은 톤 */
     color: var(--primary) !important;
+    border-radius: 8px !important;
 }
 
 .paginav:hover {
@@ -207,10 +209,10 @@ code:not(pre code) {
 }
 
 .buttons a.button:hover {
-    background: var(--primary) !important; /* 호버 시 시안 블루로 반전 */
-    color: #0b0e11 !important;          /* 텍스트는 다시 다크로 */
+    background: #343b42 !important; /* 은은하게 밝아지는 다크 그레이 */
+    color: var(--primary) !important;
     transform: translateY(-4px) !important;
-    box-shadow: 0 8px 20px rgba(0, 210, 255, 0.25) !important;
+    box-shadow: 0 8px 25px rgba(0, 210, 255, 0.2) !important;
     border-color: var(--primary) !important;
 }
 
