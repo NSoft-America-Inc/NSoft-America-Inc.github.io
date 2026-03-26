@@ -133,17 +133,30 @@ h1.post-title {
     -webkit-text-fill-color: transparent !important;
 }
 
-/* 🏷️ 하단 태그 및 다음/이전 글 박스: 가독성 개선 (밝은 그레이 톤) */
+/* 🏷️ 하단 태그 및 다음/이전 글 박스: 'Simplify' 스타일과 동일하게 다크 그레이 + 시안 블루 적용 */
 .post-tags a, .paginav {
-    background: #f0f2f5 !important; /* 요청하신 밝은 그레이 톤 */
-    color: #0056b3 !important;      /* 시안 블루보다 정독성이 높은 다크 블루 */
-    border-radius: 8px !important;
-    transition: all 0.2s ease !important;
+    background: #2a2f35 !important; /* 다크 그레이 배경 */
+    color: var(--primary) !important; /* 시안 블루 텍스트 */
+    border: 1px solid rgba(0, 210, 255, 0.2) !important;
+    border-radius: 12px !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.paginav a {
+    color: var(--primary) !important;
+    text-decoration: none !important;
 }
 
 .post-tags a:hover {
     background: var(--primary) !important;
     color: #0b0e11 !important;
+    border-color: var(--primary) !important;
+}
+
+/* 다음/이전 글 박스 호버링 효과 추가 */
+.paginav:hover {
+    border-color: var(--primary) !important;
+    box-shadow: 0 5px 20px rgba(0, 210, 255, 0.1) !important;
 }
 
 /* 🌑 글 목록 배경 처리: 화이트 대신 프리미엄 다크/그레이 적용 */
