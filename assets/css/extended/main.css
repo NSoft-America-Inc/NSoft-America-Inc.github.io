@@ -118,28 +118,41 @@ body {
     border-color: var(--primary) !important;
 }
 
-/* 🎨 포스트 본문 헤더 디자인: 시안 블루 적용 & 하위 호환성 강화 */
+/* 🎨 포스트 본문 헤더 디자인: 시안 블루 적용 */
 .post-content h2, 
 .post-content h3, 
-.post-content h4,
-h1.post-title {
-    color: #00d2ff !important; /* var(--primary) fallback */
-    color: var(--primary) !important;
+.post-content h4 {
+    color: #00d2ff !important;
     font-weight: 800 !important;
     margin-top: 2.5rem !important;
     margin-bottom: 1.2rem !important;
     letter-spacing: -0.5px;
 }
 
+/* 카테고리/목록 페이지 상단 제목 (News, Tech 등) */
+.page-header h1 {
+    color: #00d2ff !important;
+    font-weight: 900 !important;
+    letter-spacing: -1px;
+}
+
+/* 개별 포스트 메인 제목 */
+h1.post-title {
+    color: #00d2ff !important;
+    font-weight: 800 !important;
+}
+
 /* 포스트 제목 강조 (그라데이션 & Comet/Safari 하위 호환성) */
 .post-single .post-title,
+.post-entry h2,
 .post-entry .post-title {
-    color: #00d2ff !important; /* Fallback for browsers not supporting variable or gradient-text */
-    background-color: #00d2ff !important;
+    color: #00d2ff !important;
+    background-color: transparent !important; /* 배경 초기화 */
     background: linear-gradient(90deg, #ffffff, #00d2ff) !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
+    display: inline-block; /* 그라데이션 적용을 위해 필요할 수 있음 */
 }
 
 /* 🏷️ 하단 태그 및 다음/이전 글 박스: 'Simplify' 스타일과 동일하게 다크 그레이 + 시안 블루 적용 */
