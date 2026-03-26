@@ -5,6 +5,7 @@ title = "NSoft America"
 theme = "PaperMod"
 
 [params]
+  defaultTheme = "dark"
   description = "NSoft America Tech Blog"
   author = "NSoft America"
   ShowReadingTime = true
