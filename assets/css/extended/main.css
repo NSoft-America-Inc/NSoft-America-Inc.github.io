@@ -153,10 +153,15 @@ h1.post-title {
     border-color: var(--primary) !important;
 }
 
-/* 다음/이전 글 박스 호버링 효과 추가 */
+/* 다음/이전 글 박스 개별 링크 호버링: 흰색 대신 은은하게 밝아지는 다크 그레이 적용 */
+.paginav a:hover {
+    background: #343b42 !important; /* 기존 #2a2f35 보다 아주 살짝 밝은 톤 */
+    color: var(--primary) !important;
+}
+
 .paginav:hover {
     border-color: var(--primary) !important;
-    box-shadow: 0 5px 20px rgba(0, 210, 255, 0.1) !important;
+    box-shadow: 0 5px 25px rgba(0, 210, 255, 0.15) !important;
 }
 
 /* 🌑 글 목록 배경 처리: 화이트 대신 프리미엄 다크/그레이 적용 */
