@@ -7,10 +7,6 @@ tags: ["RPA", "AI", "IntelligentAutomation", "Hyperautomation", "FutureTech"]
 categories: ["News"]
 description: "기계적인 반복을 넘어 지능적인 판단으로: RPA와 생성형 AI가 결합된 '지능형 자동화(IA)'의 시대적 흐름을 심층 분석합니다."
 author: "NSoft America"
-cover:
-    image: "/images/rpa-ai-fusion.png"
-    alt: "AI and RPA Fusion"
-    caption: "AI(지능)와 RPA(실행)의 결합을 통한 자동화의 진화"
 ---
 
 ## Overview

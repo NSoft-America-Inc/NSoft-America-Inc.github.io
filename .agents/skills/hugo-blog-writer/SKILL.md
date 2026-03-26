@@ -30,8 +30,8 @@ Every post must follow this logical flow, aiming for **~7,000 characters** in du
 ### 2. Premium Visual Strategy (On-Demand)
 To make posts "Worthy of NSoft America", adopt these visual standards when appropriate:
 - **Infographics (via NLM)**: Use for summarizing research, news, or complex architectures. Download from NLM to `static/images/`.
-- **Hero Art (via generate_image)**: Use high-end, 3D futuristic conceptual art for the cover image (Front Matter `cover.image`).
 - **Mermaid Diagrams**: Use for logic flows, state machines, or CI/CD pipelines.
+- **Note**: Do NOT use `cover` image in Front Matter as they are too large in the list view.
 
 ### 3. Visual & Formatting Standards
 Technical posts must not be "walls of text". Always use:
@@ -87,6 +87,5 @@ author: "NSoft America"
 2. **Draft**: Create the file and fill all 5+ mandatory sections.
 3. **Visual Sync (Optional)**: 
    - **IF user requests Infographic**: Sync source to NotebookLM -> `studio_create(artifact_type='infographic')` -> Download to `static/images/` -> Embed at the top.
-   - **IF user requests Cover Art**: Use `generate_image` -> Add to Front Matter `cover`.
 4. **Verify**: Check for 7,000+ characters and visual elements (tables/lists).
 5. **Push**: `git push origin main` and monitor the GitHub Actions tab.

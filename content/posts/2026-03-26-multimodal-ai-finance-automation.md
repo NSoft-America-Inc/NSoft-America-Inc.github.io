@@ -7,10 +7,6 @@ tags: ["MultimodalAI", "FinanceAutomation", "Gemini", "AI-Agents", "DigitalTrans
 categories: ["News"]
 description: "텍스트를 넘어 시각적 맥락까지 이해하는 '멀티모달 AI'가 어떻게 금융권의 복잡한 비즈니스 로직을 자동화하는지 분석합니다."
 author: "NSoft America"
-cover:
-    image: "/images/multimodal-finance-ai.png"
-    alt: "Multimodal AI in Finance"
-    caption: "복잡한 금융 서류를 시각적으로 분석하는 멀티모달 AI 에이전트"
 ---
 
 ## Overview
