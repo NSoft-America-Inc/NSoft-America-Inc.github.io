@@ -111,3 +111,31 @@ body {
     border-color: var(--primary) !important;
 }
 
+/* 🎨 포스트 본문 헤더 디자인: 시안 블루 적용 */
+.post-content h2, .post-content h3, .post-content h4 {
+    color: var(--primary) !important;
+    font-weight: 800 !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1.2rem !important;
+    letter-spacing: -0.5px;
+}
+
+/* 포스트 제목 강조 */
+.post-single .post-title {
+    color: #ffffff !important;
+    background: linear-gradient(90deg, #ffffff, var(--primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* 본문 내 코드 블록 스타일 보완 */
+.post-content code {
+    background: rgba(0, 210, 255, 0.1) !important;
+    color: var(--primary) !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 4px !important;
+}
+
