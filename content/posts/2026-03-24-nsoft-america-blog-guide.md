@@ -5,7 +5,7 @@ weight: 35
 draft: false
 tags: ["guide", "hugo", "github-pages", "collaboration", "onboarding"]
 categories: ["Tech"]
-description: "NSoft America 기술 블로그를 위한 Mac/Windows 환경 설정 및 포스팅 절차 안내서입니다."
+description: "NSoft America 기술 블로그 필진을 위한 필독 가이드: 개발 환경 구축부터 골드 스탠다드 포스팅 기법까지, 성공적인 기여를 위한 모든 노하우를 담았습니다."
 author: "NSoft America"
 ---
 

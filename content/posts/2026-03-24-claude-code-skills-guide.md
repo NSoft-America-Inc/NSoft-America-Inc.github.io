@@ -5,7 +5,7 @@ weight: 10
 draft: false
 tags: ["claudecode", "ai-agent", "skills", "automation", "harry-potter"]
 categories: ["Tech"]
-description: "클로드코드(Claude Code)의 스킬 시스템 개념부터 활용 전략까지 상세히 분석합니다."
+description: "단순한 챗봇을 넘어 스스로 생각하고 행동하는 AI 에이전트로! 클로드코드(Claude Code)의 스킬 시스템과 실전 활용 전략을 총망라합니다."
 author: "NSoft America"
 ---
 

@@ -12,6 +12,7 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowPostNavLinks = true
   disableSpecial1stPost = true
+  showDescription = true
 
   [params.profileMode]
     enabled = true
