@@ -177,3 +177,22 @@ code:not(pre code) {
     border: 1px solid rgba(0, 210, 255, 0.15) !important;
 }
 
+/* 🏠 랜딩 페이지 'View Posts', 'About' 버튼 스타일: 'Simplify'와 동일한 고급스러운 톤 적용 */
+.buttons a.button {
+    background: #2a2f35 !important; /* 다크 그레이 배경 */
+    color: var(--primary) !important; /* 시안 블루 텍스트 */
+    border: 1px solid rgba(0, 210, 255, 0.2) !important;
+    padding: 8px 20px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.buttons a.button:hover {
+    background: var(--primary) !important; /* 호버 시 시안 블루로 반전 */
+    color: #0b0e11 !important;          /* 텍스트는 다시 다크로 */
+    transform: translateY(-4px) !important;
+    box-shadow: 0 8px 20px rgba(0, 210, 255, 0.25) !important;
+    border-color: var(--primary) !important;
+}
+
