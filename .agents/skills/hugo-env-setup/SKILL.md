@@ -27,11 +27,12 @@ The theme is stored as a Git Submodule. Without it, the site will fail to build.
 Ensure the user has a name and email set for commits.
 - **Action**: Run `git config user.name` and `git config user.email`. If empty, prompt the user to set them.
 
-### 4. MCP & AI Intelligence Setup (NotebookLM)
-To enable premium features like "Infographic Generation" and "Deep Research", the AI agent needs access to NotebookLM.
-- **Action**: Run `nlm login` in the terminal to initialize authentication. 
-- **Verify**: Run `nlm status` to ensure you are logged in correctly for this profile.
-- **Note**: This is essential for the `hugo-blog-writer` skill to leverage the `notebooklm-mcp` server.
+### 4. MCP & AI Intelligence Setup (NotebookLM, GitHub, Gemini)
+To enable advanced automation and research features, the AI agent needs specific MCP servers configured:
+- **NotebookLM (Intelligence)**: For infographic generation and research. Run `nlm login` to initialize.
+- **GitHub (Automation)**: For managing PRs and issues. Ensure a Fine-grained PAT is configured in your global MCP config.
+- **Google/Gemini (Advanced Search)**: For latest tech trends research using Google Search API.
+- **Action**: Verify `nlm status` and ensure your agent has access to `github-mcp` and `google-mcp` servers.
 
 ---
 
