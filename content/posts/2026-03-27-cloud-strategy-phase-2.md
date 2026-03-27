@@ -2,13 +2,8 @@
 title: "[Report] AWS vs. GCP 리소스 정밀 매핑: 기존 자산의 손실 없는 이관 전략 (2부)"
 date: 2026-03-27
 weight: 2
-<<<<<<< HEAD
 draft: true
-tags: ["cloud", "GCP", "AWS", "migration", "resource-mapping", "AlloyDB", "GlobalVPC"]
-=======
-draft: false
-tags: ["cloud-strategy", "GCP", "AWS", "migration", "resource-mapping"]
->>>>>>> eb70beb8b502a79de03f6719d80704ea399f21e1
+tags: ["cloud-strategy", "GCP", "AWS", "migration", "resource-mapping", "AlloyDB", "GlobalVPC"]
 categories: ["Cloud", "Strategy"]
 description: "기존 AWS 인프라 자산을 GCP로 안전하게 마이그레이션하기 위한 1:1 서비스 매핑 가이드 및 기술적 성능 고도화 방안 (제2부)"
 author: "NSoft America Engineering Team"

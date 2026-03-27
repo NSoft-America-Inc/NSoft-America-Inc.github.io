@@ -2,8 +2,8 @@
 title: "[Report] 스마트 팩토리의 경제학: GCP와 AWS의 TCO 분석 및 재무적 실효성 비교 (3부)"
 date: 2026-03-27
 weight: 3
-draft: false
-tags: ["cloud", "TCO", "ROI", "GCP", "AWS", "RaMP", "financial-strategy"]
+draft: true
+tags: ["cloud-strategy", "TCO", "ROI", "GCP", "AWS", "RaMP", "financial-strategy"]
 categories: ["Cloud", "Strategy"]
 description: "RaMP 2026 펀딩 프로그램과 자동 할인 메커니즘을 통한 마이그레이션 이중 과금 해소 및 중장기 비용 절감 전략 (제3부)"
 author: "NSoft America Engineering Team"

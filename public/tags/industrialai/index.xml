@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IndustrialAI on NSoft America</title>
+    <link>https://nsoft-america-inc.github.io/tags/industrialai/</link>
+    <description>Recent content in IndustrialAI on NSoft America</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Mar 2026 15:05:00 -0500</lastBuildDate>
+    <atom:link href="https://nsoft-america-inc.github.io/tags/industrialai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>위험 지역을 지키는 &#39;눈과 손&#39;: 에이전틱 AI와 로봇공학의 혁신적 만남</title>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-robotics-dangerous-environments/</link>
+      <pubDate>Thu, 26 Mar 2026 15:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-robotics-dangerous-environments/</guid>
+      <description>ADLINK와 Noble Machines가 손잡고 석유화학, 에너지, 원자력 등 위험 환경에 특화된 휴머노이드 로봇을 개발합니다. 인간을 보호하는 &amp;#39;에이전틱 AI&amp;#39;의 최전선을 분석합니다.</description>
+    </item>
+  </channel>
+</rss>

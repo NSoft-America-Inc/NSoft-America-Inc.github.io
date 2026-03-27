@@ -2,7 +2,7 @@
 title: "[Report] 차세대 제조 인텔리전스: BigQuery와 Vertex AI를 통한 데이터 자산화"
 date: 2026-03-27
 weight: 5
-draft: false
+draft: true
 tags: ["BigQuery", "VertexAI", "Gemini", "data-analytics", "manufacturing-AI", "GCP", "AWS"]
 categories: ["Cloud", "Strategy"]
 description: "방대한 제조 현장 데이터를 비즈니스 가치로 전환하기 위한 GCP BigQuery와 Vertex AI의 기술적 우위성 및 데이터 전략 (제5부)"

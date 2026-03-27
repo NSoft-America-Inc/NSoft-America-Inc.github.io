@@ -2,7 +2,7 @@
 title: "[Report] 제조 현장 최적화 인프라: GCP Anthos의 하이브리드 클라우드 우위성"
 date: 2026-03-27
 weight: 4
-draft: false
+draft: true
 tags: ["Anthos", "Outposts", "hybrid-cloud", "manufacturing", "on-premise", "GCP", "AWS"]
 categories: ["Cloud", "Strategy"]
 description: "제조 현장의 폐쇄적 환경(On-premise)과 클라우드를 유연하게 통합하기 위한 GCP Anthos와 AWS Outposts의 기술적 비교 분석 (제4부)"

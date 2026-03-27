@@ -2,7 +2,7 @@
 title: "[Report] 차세대 비즈니스 생태계 시너지: Workspace·Gemini·Antigravity의 수직 계통 통합"
 date: 2026-03-27
 weight: 6
-draft: false
+draft: true
 tags: ["GoogleWorkspace", "Gemini", "Antigravity", "productivity", "collaboration", "ecosystem", "GCP"]
 categories: ["Cloud", "Strategy"]
 description: "단순 인프라를 넘어 비즈니스 전반의 생산성을 혁신하기 위한 구글 생태계(Workspace + GCP + AI) 통합의 전략적 가치 분석 (제6부)"

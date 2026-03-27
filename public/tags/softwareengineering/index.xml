@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SoftwareEngineering on NSoft America</title>
+    <link>https://nsoft-america-inc.github.io/tags/softwareengineering/</link>
+    <description>Recent content in SoftwareEngineering on NSoft America</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Mar 2026 16:05:00 -0500</lastBuildDate>
+    <atom:link href="https://nsoft-america-inc.github.io/tags/softwareengineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>앤스로픽(Anthropic)이 제시하는 &#39;장기 실행 AI 에이전트&#39;의 새로운 청사진</title>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-anthropic-long-running-agent-blueprint/</link>
+      <pubDate>Thu, 26 Mar 2026 16:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-anthropic-long-running-agent-blueprint/</guid>
+      <description>AI 에이전트의 최대 약점인 &amp;#39;장기 기억과 일관성&amp;#39;을 해결하기 위한 앤스로픽의 새로운 블루프린트(청사진)를 분석합니다. 2단 에이전트 시스템과 체계적인 환경 구축이 어떤 변화를 가져올까요?</description>
+    </item>
+  </channel>
+</rss>

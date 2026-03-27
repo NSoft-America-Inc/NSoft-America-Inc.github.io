@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>IntelligentAutomation on NSoft America</title>
-    <link>http://localhost:1313/tags/intelligentautomation/</link>
+    <link>https://nsoft-america-inc.github.io/tags/intelligentautomation/</link>
     <description>Recent content in IntelligentAutomation on NSoft America</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2026 10:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/intelligentautomation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nsoft-america-inc.github.io/tags/intelligentautomation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RPA는 여전히 중요하다, 하지만 AI가 자동화의 판도를 뒤바꾸고 있다</title>
-      <link>http://localhost:1313/posts/2026-03-26-ai-changing-automation-rpa/</link>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-changing-automation-rpa/</link>
       <pubDate>Thu, 26 Mar 2026 10:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/2026-03-26-ai-changing-automation-rpa/</guid>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-changing-automation-rpa/</guid>
       <description>기계적인 반복을 넘어 지능적인 판단으로: RPA와 생성형 AI가 결합된 &amp;#39;지능형 자동화(IA)&amp;#39;의 시대적 흐름을 심층 분석합니다.</description>
     </item>
   </channel>

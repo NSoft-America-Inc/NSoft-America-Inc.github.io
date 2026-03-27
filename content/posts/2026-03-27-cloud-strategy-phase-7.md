@@ -2,7 +2,7 @@
 title: "[Report] 결론 및 실행 로드맵: Google Cloud 파트너십 이행 전략"
 date: 2026-03-27
 weight: 7
-draft: false
+draft: true
 tags: ["roadmap", "execution", "GCP", "partnership", "migration", "RAMP", "TAM"]
 categories: ["Cloud", "Strategy"]
 description: "NSoft America의 성공적인 GCP 전환을 위한 3단계 실행 로드맵 및 전문 기술 지원 체계(RAMP/TAM) 활용 방안 (제7부)"

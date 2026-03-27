@@ -2,171 +2,367 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on NSoft America</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://nsoft-america-inc.github.io/tags/</link>
     <description>Recent content in Tags on NSoft America</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 09:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nsoft-america-inc.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <title>AWS</title>
+      <link>https://nsoft-america-inc.github.io/tags/aws/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/aws/</guid>
       <description></description>
     </item>
     <item>
-      <title>Google</title>
-      <link>http://localhost:1313/tags/google/</link>
-      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/google/</guid>
+      <title>Cloud-Strategy</title>
+      <link>https://nsoft-america-inc.github.io/tags/cloud-strategy/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/cloud-strategy/</guid>
       <description></description>
     </item>
     <item>
-      <title>MarketAnalysis</title>
-      <link>http://localhost:1313/tags/marketanalysis/</link>
-      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/marketanalysis/</guid>
+      <title>Executive-Report</title>
+      <link>https://nsoft-america-inc.github.io/tags/executive-report/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/executive-report/</guid>
       <description></description>
     </item>
     <item>
-      <title>Semiconductor</title>
-      <link>http://localhost:1313/tags/semiconductor/</link>
-      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/semiconductor/</guid>
+      <title>GCP</title>
+      <link>https://nsoft-america-inc.github.io/tags/gcp/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/gcp/</guid>
       <description></description>
     </item>
     <item>
-      <title>TurboQuant</title>
-      <link>http://localhost:1313/tags/turboquant/</link>
-      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/turboquant/</guid>
+      <title>Manufacturing-IT</title>
+      <link>https://nsoft-america-inc.github.io/tags/manufacturing-it/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/manufacturing-it/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ai-Agent</title>
-      <link>http://localhost:1313/tags/ai-agent/</link>
-      <pubDate>Tue, 24 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/ai-agent/</guid>
+      <title>Strategy</title>
+      <link>https://nsoft-america-inc.github.io/tags/strategy/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/strategy/</guid>
       <description></description>
     </item>
     <item>
-      <title>Antigravity</title>
-      <link>http://localhost:1313/tags/antigravity/</link>
-      <pubDate>Tue, 24 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/antigravity/</guid>
+      <title>AI-Agents</title>
+      <link>https://nsoft-america-inc.github.io/tags/ai-agents/</link>
+      <pubDate>Thu, 26 Mar 2026 16:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/ai-agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthropic</title>
+      <link>https://nsoft-america-inc.github.io/tags/anthropic/</link>
+      <pubDate>Thu, 26 Mar 2026 16:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/anthropic/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
+      <link>https://nsoft-america-inc.github.io/tags/automation/</link>
+      <pubDate>Thu, 26 Mar 2026 16:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://nsoft-america-inc.github.io/tags/claude/</link>
+      <pubDate>Thu, 26 Mar 2026 16:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ComputerUse</title>
+      <link>https://nsoft-america-inc.github.io/tags/computeruse/</link>
+      <pubDate>Thu, 26 Mar 2026 16:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/computeruse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SoftwareEngineering</title>
+      <link>https://nsoft-america-inc.github.io/tags/softwareengineering/</link>
+      <pubDate>Thu, 26 Mar 2026 16:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/softwareengineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ADLINK</title>
+      <link>https://nsoft-america-inc.github.io/tags/adlink/</link>
+      <pubDate>Thu, 26 Mar 2026 15:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/adlink/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DangerousEnvironments</title>
+      <link>https://nsoft-america-inc.github.io/tags/dangerousenvironments/</link>
+      <pubDate>Thu, 26 Mar 2026 15:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/dangerousenvironments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IndustrialAI</title>
+      <link>https://nsoft-america-inc.github.io/tags/industrialai/</link>
+      <pubDate>Thu, 26 Mar 2026 15:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/industrialai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NobleMachines</title>
+      <link>https://nsoft-america-inc.github.io/tags/noblemachines/</link>
+      <pubDate>Thu, 26 Mar 2026 15:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/noblemachines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robotics</title>
+      <link>https://nsoft-america-inc.github.io/tags/robotics/</link>
+      <pubDate>Thu, 26 Mar 2026 15:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BMW</title>
+      <link>https://nsoft-america-inc.github.io/tags/bmw/</link>
+      <pubDate>Thu, 26 Mar 2026 14:45:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/bmw/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humanoid</title>
+      <link>https://nsoft-america-inc.github.io/tags/humanoid/</link>
+      <pubDate>Thu, 26 Mar 2026 14:45:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/humanoid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manufacturing</title>
+      <link>https://nsoft-america-inc.github.io/tags/manufacturing/</link>
+      <pubDate>Thu, 26 Mar 2026 14:45:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/manufacturing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PhysicalAI</title>
+      <link>https://nsoft-america-inc.github.io/tags/physicalai/</link>
+      <pubDate>Thu, 26 Mar 2026 14:45:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/physicalai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DigitalTransformation</title>
+      <link>https://nsoft-america-inc.github.io/tags/digitaltransformation/</link>
+      <pubDate>Thu, 26 Mar 2026 14:30:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/digitaltransformation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FinanceAutomation</title>
+      <link>https://nsoft-america-inc.github.io/tags/financeautomation/</link>
+      <pubDate>Thu, 26 Mar 2026 14:30:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/financeautomation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gemini</title>
+      <link>https://nsoft-america-inc.github.io/tags/gemini/</link>
+      <pubDate>Thu, 26 Mar 2026 14:30:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MultimodalAI</title>
+      <link>https://nsoft-america-inc.github.io/tags/multimodalai/</link>
+      <pubDate>Thu, 26 Mar 2026 14:30:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/multimodalai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://nsoft-america-inc.github.io/tags/ai/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FutureTech</title>
+      <link>https://nsoft-america-inc.github.io/tags/futuretech/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/futuretech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hyperautomation</title>
+      <link>https://nsoft-america-inc.github.io/tags/hyperautomation/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/hyperautomation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IntelligentAutomation</title>
+      <link>https://nsoft-america-inc.github.io/tags/intelligentautomation/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/intelligentautomation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RPA</title>
+      <link>https://nsoft-america-inc.github.io/tags/rpa/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/rpa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://nsoft-america-inc.github.io/tags/google/</link>
+      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MarketAnalysis</title>
+      <link>https://nsoft-america-inc.github.io/tags/marketanalysis/</link>
+      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/marketanalysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semiconductor</title>
+      <link>https://nsoft-america-inc.github.io/tags/semiconductor/</link>
+      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/semiconductor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TurboQuant</title>
+      <link>https://nsoft-america-inc.github.io/tags/turboquant/</link>
+      <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/turboquant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Agent</title>
+      <link>https://nsoft-america-inc.github.io/tags/ai-agent/</link>
       <pubDate>Tue, 24 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/ai-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Antigravity</title>
+      <link>https://nsoft-america-inc.github.io/tags/antigravity/</link>
+      <pubDate>Tue, 24 Mar 2026 09:00:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/tags/antigravity/</guid>
       <description></description>
     </item>
     <item>
       <title>Claude Skills</title>
-      <link>http://localhost:1313/tags/claude-skills/</link>
+      <link>https://nsoft-america-inc.github.io/tags/claude-skills/</link>
       <pubDate>Tue, 24 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/claude-skills/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/claude-skills/</guid>
       <description></description>
     </item>
     <item>
       <title>Harness Engineering</title>
-      <link>http://localhost:1313/tags/harness-engineering/</link>
+      <link>https://nsoft-america-inc.github.io/tags/harness-engineering/</link>
       <pubDate>Tue, 24 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/tags/harness-engineering/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/harness-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai-Engineering</title>
-      <link>http://localhost:1313/tags/ai-engineering/</link>
+      <link>https://nsoft-america-inc.github.io/tags/ai-engineering/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-engineering/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/ai-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Collaboration</title>
-      <link>http://localhost:1313/tags/collaboration/</link>
+      <link>https://nsoft-america-inc.github.io/tags/collaboration/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/collaboration/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/collaboration/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>http://localhost:1313/tags/deployment/</link>
+      <link>https://nsoft-america-inc.github.io/tags/deployment/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deployment/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Flow-Framework</title>
-      <link>http://localhost:1313/tags/flow-framework/</link>
+      <link>https://nsoft-america-inc.github.io/tags/flow-framework/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/flow-framework/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/flow-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Github-Pages</title>
-      <link>http://localhost:1313/tags/github-pages/</link>
+      <link>https://nsoft-america-inc.github.io/tags/github-pages/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/github-pages/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/github-pages/</guid>
       <description></description>
     </item>
     <item>
       <title>Guide</title>
-      <link>http://localhost:1313/tags/guide/</link>
+      <link>https://nsoft-america-inc.github.io/tags/guide/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/guide/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://nsoft-america-inc.github.io/tags/hugo/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Onboarding</title>
-      <link>http://localhost:1313/tags/onboarding/</link>
+      <link>https://nsoft-america-inc.github.io/tags/onboarding/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/onboarding/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/onboarding/</guid>
       <description></description>
     </item>
     <item>
       <title>Product-Design</title>
-      <link>http://localhost:1313/tags/product-design/</link>
+      <link>https://nsoft-america-inc.github.io/tags/product-design/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/product-design/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/product-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Claudecode</title>
-      <link>http://localhost:1313/tags/claudecode/</link>
+      <link>https://nsoft-america-inc.github.io/tags/claudecode/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/claudecode/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/claudecode/</guid>
       <description></description>
     </item>
     <item>
       <title>Harry-Potter</title>
-      <link>http://localhost:1313/tags/harry-potter/</link>
+      <link>https://nsoft-america-inc.github.io/tags/harry-potter/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/harry-potter/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/harry-potter/</guid>
       <description></description>
     </item>
     <item>
       <title>Skills</title>
-      <link>http://localhost:1313/tags/skills/</link>
+      <link>https://nsoft-america-inc.github.io/tags/skills/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/skills/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/skills/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical-Spec</title>
-      <link>http://localhost:1313/tags/technical-spec/</link>
+      <link>https://nsoft-america-inc.github.io/tags/technical-spec/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technical-spec/</guid>
+      <guid>https://nsoft-america-inc.github.io/tags/technical-spec/</guid>
       <description></description>
     </item>
   </channel>
