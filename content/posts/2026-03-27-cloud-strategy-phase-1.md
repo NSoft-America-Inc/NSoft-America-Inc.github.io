@@ -64,6 +64,12 @@ GCP는 지난 8년간 **Gartner Magic Quadrant™ 전략적 클라우드 리더*
 ## 3. Engineering Competitive Advantage: Manufacturing Data Engine (MDE)
 
 ### 3.1 OT-IT 통합의 병목 해결 (250+ Protocols지원)
+
+![NSoft OT-IT Data Architecture](/images/nsoft-ot-it-architecture.png)
+
+> [!NOTE]
+> **시각화 분석**: 250개 이상의 산업용 프로토콜이 MDE와 Connect를 통해 표준화된 데이터 스트림으로 통합되어 NSoft MES로 유입되는 아키텍처 구조입니다.
+
 제조 IT의 고질적인 문제는 공장 바닥의 수많은 이기종 장비 프로토콜을 클라우드로 통합하는 데 드는 비용(ETL Costs)입니다. 구글의 **Manufacturing Data Engine(MDE)**과 **Connect** 솔루션은 리터스 오토메이션과의 협업으로 250개 이상의 산업용 기기 프로토콜을 네이티브로 지원합니다. 
 
 이는 NSoft의 N-MES 도입 시, 데이터 파이프라인 구축 과정에서 개별 장비마다 수행하던 커스텀 프로토콜 개발 프로세스를 **표준화된 데이터 인입(Ingestion) 아키텍처**로 대체하며, 수집된 데이터를 즉시 분석 가능한 정형 데이터로 변환하여 예지 보전 알고리즘 등에 신속히 투입할 수 있는 기술적 기반을 제공합니다.

@@ -24,49 +24,38 @@ Every strategic report must follow this logical flow:
 6.  **## Final Recommendation & Roadmap**: A clear, decisive conclusion with a 3-phase execution plan.
 7.  **## References**: Links to internal data, external sources, and NotebookLM-generated research.
 
-### 2. High-Depth Visual Strategy
-Strategic reports must be visually authoritative:
-- **Tables (Mandatory)**: Every report MUST have at least 1 complex table comparing feature sets, pricing, or timelines.
-- **Charts (Mermaid Rendered)**: Standard Mermaid syntax (` ```mermaid `) will be automatically rendered as a high-quality SVG/HTML chart in the browser. 
-- **Infographics (Recommended)**: Use `studio_create(artifact_type='infographic', language='ko')` from NotebookLM for complex TCO/Architecture summaries.
+### 2. 시각적 권위 확보 (Visual Concentration Strategy)
+전략 리포트는 단순히 정보를 나열하는 것이 아니라, 독자의 시선을 가장 임팩트 있는 곳에 고정시켜야 한다.
+
+- **선택적 집약 (Selective Focus)**: 전체 요약형 인포그래픽을 지양한다. 리포트 초안 작성 후 다음 3가지 중 가장 파급력이 큰 **1~2개 섹션만 선별**하여 시각화한다.
+  - **아키텍처/기술적 도약**: 복잡한 시스템의 변화나 데이터 흐름을 보여주는 `infographic`을 해당 섹션 내부에 배치.
+  - **재무적 타당성/TCO**: 정밀한 수치 비교가 필요한 경우 `data_table`을 활용.
+  - **전략적 로드맵/프로세스**: 변화된 워크플로우를 보여주는 `mind_map`이나 `infographic` 배치.
+- **맥락적 배치 (Contextual Insertion)**: 시각 자료는 반드시 관련 논의가 시작되는 **섹션 제목(##) 바로 아래**에 배치하여 텍스트 읽기의 몰입감을 높인다.
+- **도구 활용**:
+  - **Tables (Mandatory)**: 최소 1개의 정밀 비교 테이블 포함.
+  - **Mermaid Rendered**: 표준 Mermaid syntax (` ```mermaid `)를 활용한 동적 차트.
+  - **NotebookLM Studio**: 특정 섹션의 심층 분석용 `infographic`, `data_table`, `mind_map` 활용.
 
 ---
 
----
-
-### 4. Intelligence-First Research (Gemini/NLM Integration)
-Every strategic report MUST be built on a foundation of verifiable data.
-- **Deep Research**: Always start by invoking `research_start(mode='deep')` or Using Gemini-based MCP to find official manufacturer data (Google Cloud vs. AWS), Gartner reports, and IDC market trends.
-- **Reference Integrity**: Every major comparative claim (Price, Performance, Support) must be backed by a verifiable URL or a cited document from the NotebookLM source list.
-- **Internal Synergy**: Leverage internal Antigravity logs to demonstrate the productivity gain of using specific cloud ecosystem features.
+### 3. Intelligence-First Research (Gemini/NLM Integration)
+모든 전략적 주권은 검증된 데이터에서 시작된다.
+- **Deep Research**: `research_start(mode='deep')`를 통해 글로벌 벤더 공식 데이터 및 Gartner/IDC 리포트 확보.
+- **Citation Integrity**: 모든 수치적 주장에는 NotebookLM 소스 리스트 기반의 인용번호 또는 출처 링크를 명시.
 
 ---
 
 ## File & Front Matter Conventions
-
-### Location & Naming
 - Path: `content/posts/YYYY-MM-DD-filename-in-kebab-case.md`
-- Recommended Category: `Cloud` or `Strategy`
-
-### Front Matter (REQUIRED)
-```yaml
----
-title: "[Report] Clear, Strategic Title (Korean)"
-date: 2026-03-27
-weight: 5
-draft: false
-tags: ["strategy", "cloud", "executive-report"]
-categories: ["Cloud", "Strategy"]
-description: "A one-line strategic value proposition."
-author: "NSoft America Strategy Team"
----
-```
+- Categories: `Cloud`, `Strategy`, `AI`, `Manufacturing`
+- Tags: `strategy`, `cloud-strategy`, `executive-report` 등
 
 ---
 
 ## Execution Workflow
-1.  **Research**: Always start with `research_start(mode='deep', query='...')` to gather AWS vs GCP comparison data, manufacturing trends, and partner benefits from Google Cloud/AWS official sites.
-2.  **Ingest & Sync**: Sync research sources to NotebookLM and use `studio_create(artifact_type='infographic')` for complex visualizations.
-3.  **Analyze & Draft**: Follow the 6 mandatory sections, ensuring each claim has a citation.
-4.  **Visualize**: Embed Mermaid charts and NLM artifacts.
-5.  **Deploy**: Push to `main` and verify on the live blog.
+1.  **Research**: `research_start(mode='deep', query='...')`로 AWS vs GCP 비교 및 도메인 트렌드 분석.
+2.  **Analyze & Selection**: 리포트 초안 중 시각화가 가장 필요한 **'High-Impact 섹션'**을 1~2개 선정.
+3.  **Visual Asset Generation**: 선정된 섹션에 특화된 `infographic` 또는 `data_table`을 NotebookLM 스튜디오에서 생성.
+4.  **Drafting**: 6대 필수 구조를 지키되, 선정한 섹션 내부에 시각 자료를 맥락에 맞게 삽입.
+5.  **Validation & Deploy**: `hugo` 빌드 확인 후 `main` 브랜치 배포.
