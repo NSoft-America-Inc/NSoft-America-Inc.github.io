@@ -80,36 +80,36 @@ GCP는 지난 8년간 **Gartner Magic Quadrant™ 전략적 클라우드 리더*
 
 ```mermaid
 mindmap
-  root((NSoft Cloud Strategy 2026))
-    Partner Programs
+  root((NSoft 클라우드 전략 2026))
+    파트너 프로그램
       Google Cloud Partner Advantage
-        Outcome-based Shift
-        Tiers: Select, Premier, Diamond
-        Stackable Incentives
-        Focus on Pre-sales and Co-innovation
-      AWS Partner Network (APN)
-        Partner Growth Incentive (Cash Payments)
-        ISV Accelerate (MDF up to $25k)
-        Simplified Deal Registration
-    Manufacturing Capabilities
-      Data Unification
+        성과 기반으로의 전환
+        티어 체계: Select, Premier, Diamond
+        중첩 가능한 인센티브 구조
+        Pre-sales 및 공동 혁신 집중
+      AWS 파트너 네트워크 (APN)
+        파트너 성장 인프라 (현금 지급)
+        ISV Accelerate (마케팅 펀드 지원)
+        단순화된 Deal 등록 프로세스
+    제조 기술 역량
+      데이터 통합
         GCP: Manufacturing Data Engine
         GCP: Manufacturing Connect
         AWS: Industrial Data Fabric
-      AI & Low-Code
+      AI 및 Low-Code
         GCP: Gemini & Vertex AI
-        Factory Personnel Accessibility
-    Cost & Billing
-      Pricing Models
-        GCP: Per-second Billing
-        GCP: Custom Machine Types
-      Discounts
-        GCP: Sustained Use Discounts
-        AWS: Reserved Instances (RI)
-    Strategic Transition
-      Target: NSoft America (MES/WMS)
-      Shift from AWS Reseller to GCP Partner
-      2026 Global Manufacturing IT Paradigm
+        현장 인력의 기술 접근성 강화
+    비용 및 과금 구조
+      가격 정책
+        GCP: 초단위 과금 방식
+        GCP: 커스텀 머신 유형 제공
+      할인 혜택
+        GCP: 지속 사용 할인 (SUD)
+        AWS: 예약 인스턴스 (RI)
+    전략적 전환
+      대상: NSoft America (MES/WMS)
+      AWS 리셀러에서 GCP 파트너로의 전환
+      2026 글로벌 제조 IT 패러다임 선도
 ```
 
 본 파트너십 전환은 NSoft America의 재무 구조를 **'비용 중심'에서 '수익 공유 중심'**으로 개편하는 전략적 도약입니다. 2026년 구글 클라우드 파트너 네트워크(GCPN)의 티어 체계와 이에 따른 수익 구조를 정밀 분석합니다.
@@ -144,18 +144,18 @@ GCPN 2026은 파트너의 기술 역량과 시장 기여도에 따라 세 가지
 ```mermaid
 sequenceDiagram
     autonumber
-    participant AG as Antigravity (Collaborative AI)
-    participant GE as Gemini Enterprise (Generative AI)
+    participant AG as Antigravity (협업 AI)
+    participant GE as Gemini Enterprise (생성형 AI)
     participant GCP as Google Cloud Platform
     
-    GCP->>AG: Monitoring Metrics & Logs
-    Note over AG: Issue Detected (ex. Latency Spike)
-    AG->>GE: Root Cause Analysis Request
-    GE-->>AG: Self-Healing Suggestion & Script
-    AG->>GCP: Apply Automated Fix (SRE Automation)
-    GCP-->>AG: Health Restored Confirmation
-    AG->>GE: Generate Insight Report for Dashboard
-    GE-->>AG: Draft for Executive Leadership
+    GCP->>AG: 실시간 모니터링 지표 및 로그 전송
+    Note over AG: 장애 징후 감지 (예: 지연 시간 급증)
+    AG->>GE: 원인 분석 및 해결 방안 요청
+    GE-->>AG: 셀프 힐링 제안 및 자동화 스크립트 전달
+    AG->>GCP: 자동화 복구 작업 수행 (SRE 자동화)
+    GCP-->>AG: 시스템 정상 복구 확인
+    AG->>GE: 리더십 보고용 인사이트 리포트 생성
+    GE-->>AG: 경영진 보고용 최종 초안 완성
 ```
 
 구글 생태계로의 전환은 인프라 부서를 넘어 전사적인 업무 생산성 혁신을 동반합니다. 
