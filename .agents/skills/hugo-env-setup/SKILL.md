@@ -27,6 +27,12 @@ The theme is stored as a Git Submodule. Without it, the site will fail to build.
 Ensure the user has a name and email set for commits.
 - **Action**: Run `git config user.name` and `git config user.email`. If empty, prompt the user to set them.
 
+### 4. MCP & AI Intelligence Setup (NotebookLM)
+To enable premium features like "Infographic Generation" and "Deep Research", the AI agent needs access to NotebookLM.
+- **Action**: Run `nlm login` in the terminal to initialize authentication. 
+- **Verify**: Run `nlm status` to ensure you are logged in correctly for this profile.
+- **Note**: This is essential for the `hugo-blog-writer` skill to leverage the `notebooklm-mcp` server.
+
 ---
 
 ## Verification & Health Check
@@ -35,6 +41,7 @@ After setup, run these commands to verify the environment:
 1. `hugo version` -> Must include "extended".
 2. `ls themes/PaperMod` -> Should contain the theme files.
 3. `git remote -v` -> Should point to NSoft-America-Inc GitHub Org.
+4. `nlm status` -> Should show "Authenticated" for current profile.
 
 ---
 
