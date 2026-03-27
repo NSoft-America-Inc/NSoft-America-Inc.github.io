@@ -2,24 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>News on NSoft America</title>
-    <link>http://localhost:1313/categories/news/</link>
+    <link>https://nsoft-america-inc.github.io/categories/news/</link>
     <description>Recent content in News on NSoft America</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 10:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Mar 2026 15:05:00 -0500</lastBuildDate>
+    <atom:link href="https://nsoft-america-inc.github.io/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>위험 지역을 지키는 &#39;눈과 손&#39;: 에이전틱 AI와 로봇공학의 혁신적 만남</title>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-robotics-dangerous-environments/</link>
+      <pubDate>Thu, 26 Mar 2026 15:05:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-robotics-dangerous-environments/</guid>
+      <description>ADLINK와 Noble Machines가 손잡고 석유화학, 에너지, 원자력 등 위험 환경에 특화된 휴머노이드 로봇을 개발합니다. 인간을 보호하는 &amp;#39;에이전틱 AI&amp;#39;의 최전선을 분석합니다.</description>
+    </item>
+    <item>
+      <title>BMW, 유럽 최초 휴머노이드 로봇 생산 라인 전격 투입: &#39;피지컬 AI&#39; 시대의 서막</title>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-bmw-humanoid-robots-manufacturing/</link>
+      <pubDate>Thu, 26 Mar 2026 14:45:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-bmw-humanoid-robots-manufacturing/</guid>
+      <description>BMW 그룹이 독일 라이프치히 공장에 유럽 최초로 휴머노이드 로봇 &amp;#39;AEON&amp;#39;을 투입합니다. 테슬라 옵티머스를 넘어선 실질적인 산업용 AI 에이전트의 시대가 열립니다.</description>
+    </item>
+    <item>
+      <title>멀티모달 AI: 복잡한 금융 워크플로우 자동화의 새로운 전술</title>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-multimodal-ai-finance-automation/</link>
+      <pubDate>Thu, 26 Mar 2026 14:30:00 -0500</pubDate>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-multimodal-ai-finance-automation/</guid>
+      <description>텍스트를 넘어 시각적 맥락까지 이해하는 &amp;#39;멀티모달 AI&amp;#39;가 어떻게 금융권의 복잡한 비즈니스 로직을 자동화하는지 분석합니다.</description>
+    </item>
     <item>
       <title>RPA는 여전히 중요하다, 하지만 AI가 자동화의 판도를 뒤바꾸고 있다</title>
-      <link>http://localhost:1313/posts/2026-03-26-ai-changing-automation-rpa/</link>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-changing-automation-rpa/</link>
       <pubDate>Thu, 26 Mar 2026 10:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/2026-03-26-ai-changing-automation-rpa/</guid>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-changing-automation-rpa/</guid>
       <description>기계적인 반복을 넘어 지능적인 판단으로: RPA와 생성형 AI가 결합된 &amp;#39;지능형 자동화(IA)&amp;#39;의 시대적 흐름을 심층 분석합니다.</description>
     </item>
     <item>
       <title>Google의 ‘TurboQuant’ 충격: AI 효율의 극대화가 왜 반도체 주가를 흔들었는가?</title>
-      <link>http://localhost:1313/posts/2026-03-26-google-turboquant-semiconductor-impact/</link>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-26-google-turboquant-semiconductor-impact/</link>
       <pubDate>Thu, 26 Mar 2026 09:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/2026-03-26-google-turboquant-semiconductor-impact/</guid>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-26-google-turboquant-semiconductor-impact/</guid>
       <description>구글 리서치가 발표한 KV 캐시 압축 알고리즘 &amp;#39;TurboQuant&amp;#39;가 반도체 시장에 던진 파장과 그 기술적 실체를 심층 분석합니다.</description>
     </item>
   </channel>

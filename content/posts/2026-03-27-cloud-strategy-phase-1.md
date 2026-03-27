@@ -11,11 +11,6 @@ author: "NSoft America Engineering Team"
 
 # NSoft 클라우드 거버넌스 재편: 2026 글로벌 제조 IT 패러다임의 변화
 
-## [Report Summary Infographic]
-![NSoft America Cloud Transformation Strategy](/images/cloud-strategy-infographic-1.png)
-
-> [!NOTE]
-> 본 인포그래픽은 2026년 최신 클라우드 파트너 생태계 리서치(IDC, Gartner)와 NSoft의 전략 자산을 기반으로 생성된 핵심 요약 레이아웃입니다. (Bento Grid 스타일)
 
 ---
 
