@@ -61,6 +61,7 @@ git submodule update --init --recursive
 
 ### 사용 가능한 스킬 (Available Skills)
 - **`hugo-blog-writer`**: `.agents/skills/hugo-blog-writer/` 하위에 위치. 기술 블로그 포스팅 전문 작가 스킬입니다.
+- **`hugo-env-setup`**: `.agents/skills/hugo-env-setup/` 하위에 위치. 로컬 환경 자동 구축 및 검증을 위한 자동화 스킬입니다. (처음 프로젝트 시작 시 AI 에이전트에게 **"hugo-env-setup 스킬 써서 초기 환경 다 잡아줘"**라고 요청하세요.)
 
 ### AI에게 글 작성을 요청하는 법 (Usage)
 AI 에이전트(예: 클로드코드)에게 아래와 같이 요청하면 내장된 스킬을 바탕으로 고품질의 초안을 생성합니다.
