@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>STS on NSoft America</title>
+    <link>https://nsoft-america-inc.github.io/tags/sts/</link>
+    <description>Recent content in STS on NSoft America</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nsoft-america-inc.github.io/tags/sts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Report] AWS vs. GCP 리소스 정밀 비교: 아키텍처별 기술 매핑 (2/7)</title>
+      <link>https://nsoft-america-inc.github.io/posts/2026-03-27-cloud-strategy-phase-2/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://nsoft-america-inc.github.io/posts/2026-03-27-cloud-strategy-phase-2/</guid>
+      <description>AWS와 GCP의 핵심 클라우드 리소스(Compute, Storage, Network, DB)를 엔지니어링 관점에서 1:1 비교 분석하고, GCP 전환 시의 기술적 수용성과 최적화 포인트를 검토합니다 (제2부)</description>
+    </item>
+  </channel>
+</rss>

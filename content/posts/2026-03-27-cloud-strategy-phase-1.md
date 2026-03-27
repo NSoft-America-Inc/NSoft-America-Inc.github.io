@@ -1,5 +1,5 @@
 ---
-title: "[Report] NSoft America 클라우드 거버넌스 재편: 왜 지금 Google Cloud인가? (1/6)"
+title: "[Report] NSoft America 클라우드 거버넌스 재편: 왜 지금 Google Cloud인가? (1/7)"
 date: 2026-03-27
 weight: 1
 draft: false
@@ -78,39 +78,6 @@ GCP는 지난 8년간 **Gartner Magic Quadrant™ 전략적 클라우드 리더*
 
 ## 4. GCPN 2026 파트너 티어 및 수익성 시뮬레이션
 
-```mermaid
-mindmap
-  root((NSoft 클라우드 전략 2026))
-    파트너 프로그램
-      Google Cloud Partner Advantage
-        성과 기반으로의 전환
-        티어 체계: Select, Premier, Diamond
-        중첩 가능한 인센티브 구조
-        Pre-sales 및 공동 혁신 집중
-      AWS 파트너 네트워크 (APN)
-        파트너 성장 인프라 (현금 지급)
-        ISV Accelerate (마케팅 펀드 지원)
-        단순화된 Deal 등록 프로세스
-    제조 기술 역량
-      데이터 통합
-        GCP: Manufacturing Data Engine
-        GCP: Manufacturing Connect
-        AWS: Industrial Data Fabric
-      AI 및 Low-Code
-        GCP: Gemini & Vertex AI
-        현장 인력의 기술 접근성 강화
-    비용 및 과금 구조
-      가격 정책
-        GCP: 초단위 과금 방식
-        GCP: 커스텀 머신 유형 제공
-      할인 혜택
-        GCP: 지속 사용 할인 (SUD)
-        AWS: 예약 인스턴스 (RI)
-    전략적 전환
-      대상: NSoft America (MES/WMS)
-      AWS 리셀러에서 GCP 파트너로의 전환
-      2026 글로벌 제조 IT 패러다임 선도
-```
 
 본 파트너십 전환은 NSoft America의 재무 구조를 **'비용 중심'에서 '수익 공유 중심'**으로 개편하는 전략적 도약입니다. 2026년 구글 클라우드 파트너 네트워크(GCPN)의 티어 체계와 이에 따른 수익 구조를 정밀 분석합니다.
 
@@ -141,22 +108,6 @@ GCPN 2026은 파트너의 기술 역량과 시장 기여도에 따라 세 가지
 
 ## 5. Organizational Synergy: Antigravity + Gemini Enterprise
 
-```mermaid
-mindmap
-  root((전사적 생산성 혁신 시너지))
-    자율 운영 자동화
-      Antigravity 실시간 분석
-      GCP 인프라 자동 복구
-      SRE 운영 비용 30% 절감
-    지식 자산의 지능화
-      Gemini 기반 제조 도메인 학습
-      사내 기술 문서 즉시 검색
-      제안서 자동 생성(분 단위 완성)
-    보안 및 협업 무결성
-      SSO 기반 통합 인증
-      Antigravity 전용 협업 환경
-      전사적 거버넌스 자동 확보
-```
 
 구글 생태계로의 전환은 인프라 부서를 넘어 전사적인 업무 생산성 혁신을 동반합니다. 
 

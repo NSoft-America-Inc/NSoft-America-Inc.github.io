@@ -27,16 +27,15 @@ Every strategic report must follow this logical flow:
 ### 2. 시각적 권위 확보 (Visual Concentration Strategy)
 전략 리포트는 단순히 정보를 나열하는 것이 아니라, 독자의 시선을 가장 임팩트 있는 곳에 고정시켜야 한다.
 
-- **선택적 집약 (Selective Focus)**: 전체 요약형 인포그래픽을 지양한다. 리포트 초안 작성 후 다음 3가지 중 가장 파급력이 큰 **1~2개 섹션만 선별**하여 시각화한다.
-- **국문 시각화 (K-Localization)**: **모든 시각 자료(인포그래픽 레이블, Mermaid 다이어그램 텍스트, 데이터 테이블 항목명)는 한국어를 기본으로 작성한다.** 한국인 경영진 및 실무자 보고에 최적화된 용어 사용.
+- **선택적 집약 (Selective Focus)**: 전체 요약형 인포그래픽을 지양한다. 리포트 초안 작성 후 다음 중 가장 파급력이 큰 **1~2개 섹션만 선별**하여 시각화한다.
+- **국문 시각화 (K-Localization)**: **모든 시각 자료(인포그래픽 레이블, 다이어그램 텍스트, 데이터 테이블 항목명)는 한국어를 기본으로 작성한다.** 한국인 경영진 및 실무자 보고에 최적화된 용어 사용.
   - **아키텍처/기술적 도약**: 복잡한 시스템의 변화나 데이터 흐름을 보여주는 `infographic`을 해당 섹션 내부에 배치.
   - **재무적 타당성/TCO**: 정밀한 수치 비교가 필요한 경우 `data_table`을 활용.
-  - **전략적 로드맵/프로세스**: 변화된 워크플로우를 보여주는 `mind_map`이나 `infographic` 배치.
 - **맥락적 배치 (Contextual Insertion)**: 시각 자료는 반드시 관련 논의가 시작되는 **섹션 제목(##) 바로 아래**에 배치하여 텍스트 읽기의 몰입감을 높인다.
 - **도구 활용**:
   - **Tables (Mandatory)**: 최소 1개의 정밀 비교 테이블 포함.
   - **Mermaid Rendered**: 표준 Mermaid syntax (` ```mermaid `)를 활용한 동적 차트.
-  - **NotebookLM Studio**: 특정 섹션의 심층 분석용 `infographic`, `data_table`, `mind_map` 활용.
+  - **NotebookLM Studio**: 특정 섹션의 심층 분석용 `infographic`, `data_table` 활용 (마인드맵 등 단순 텍스트 기반 에셋은 지양).
 
 ---
 

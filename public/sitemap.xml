@@ -8,6 +8,9 @@
     <loc>https://nsoft-america-inc.github.io/posts/2026-03-26-anthropic-long-running-agent-blueprint/</loc>
     <lastmod>2026-03-26T16:05:00-05:00</lastmod>
   </url><url>
+    <loc>https://nsoft-america-inc.github.io/posts/2026-03-27-cloud-strategy-phase-2/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nsoft-america-inc.github.io/posts/2026-03-26-ai-robotics-dangerous-environments/</loc>
     <lastmod>2026-03-26T15:05:00-05:00</lastmod>
   </url><url>
@@ -50,13 +53,22 @@
     <loc>https://nsoft-america-inc.github.io/tags/cloud-strategy/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nsoft-america-inc.github.io/tags/dms/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nsoft-america-inc.github.io/tags/executive-report/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nsoft-america-inc.github.io/tags/gcp/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nsoft-america-inc.github.io/tags/infrastructure-compatibility/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nsoft-america-inc.github.io/tags/manufacturing-it/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nsoft-america-inc.github.io/tags/migration/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nsoft-america-inc.github.io/</loc>
@@ -69,6 +81,9 @@
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nsoft-america-inc.github.io/tags/strategy/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nsoft-america-inc.github.io/tags/sts/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nsoft-america-inc.github.io/tags/</loc>
@@ -217,5 +232,9 @@
   </url><url>
     <loc>https://nsoft-america-inc.github.io/tags/technical-spec/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nsoft-america-inc.github.io/planning/cloud-strategy-master-plan/</loc>
+  </url><url>
+    <loc>https://nsoft-america-inc.github.io/planning/</loc>
   </url>
 </urlset>
