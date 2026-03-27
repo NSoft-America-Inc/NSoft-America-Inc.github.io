@@ -3,7 +3,7 @@ title: "[Report] NSoft America 클라우드 거버넌스 재편: 왜 지금 Goog
 date: 2026-03-27
 weight: 1
 draft: false
-tags: ["strategy", "cloud", "GCP", "AWS", "manufacturing-IT", "executive-report"]
+tags: ["strategy", "cloud-strategy", "GCP", "AWS", "manufacturing-IT", "executive-report"]
 categories: ["Cloud", "Strategy"]
 description: "IDC 2026 수익성 지표 및 Gartner AI 트렌드 분석을 통한 NSoft의 Google Cloud Partner 전환 전략적 타당성 검토 (제1부)"
 author: "NSoft America Engineering Team"
