@@ -2,7 +2,7 @@
 title: "[Report] Cloud Strategy Part 7: 3단계 무중단 전환 로드맵 — 리스크 제로와 실행 가속화"
 date: 2026-04-01T09:00:00-05:00
 weight: 1
-draft: false
+draft: true
 tags: ["Roadmap", "RAMP", "CloudMigration", "Governance", "Execution", "GCP", "NSoft"]
 categories: ["Cloud", "Strategy"]
 description: "NSoft America의 Google Cloud 전환을 위한 단계별 이행 전략 및 리스크 관리 계획 (최종 제7부)"

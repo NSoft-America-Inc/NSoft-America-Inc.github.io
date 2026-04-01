@@ -2,7 +2,7 @@
 title: "[Report] Cloud Strategy Part 4: 하이브리드 클라우드와 제조 엣지 최적화 — Anthos 기반 Software-Defined Factory"
 date: 2026-03-29T09:00:00-05:00
 weight: 4
-draft: false
+draft: true
 tags: ["strategy", "hybrid-cloud", "Anthos", "Edge-AI", "manufacturing-IT", "executive-report"]
 categories: ["Cloud", "Strategy"]
 description: "Anthos Bare Metal을 활용한 NSoft의 'Software-Defined Factory' 구현 및 AWS Outposts 대비 CAPEX 절감 및 운영 유연성 분석 (제4부)"
