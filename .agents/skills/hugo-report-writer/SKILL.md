@@ -24,18 +24,16 @@ Every strategic report must follow this logical flow:
 6.  **## Final Recommendation & Roadmap**: A clear, decisive conclusion with a 3-phase execution plan.
 7.  **## References**: Links to internal data, external sources, and NotebookLM-generated research.
 
-### 2. 시각적 권위 확보 (Visual Concentration Strategy)
-전략 리포트는 단순히 정보를 나열하는 것이 아니라, 독자의 시선을 가장 임팩트 있는 곳에 고정시켜야 한다.
+### 2. 시각적 가독성 및 권위 확보 (Autonomous Visual Strategy)
+전략 리포트의 가독성을 극대화하기 위해, AI는 자율적으로 시각 자료(Mermaid, Tables, Infographics)의 삽입 위치와 수량을 결정한다.
 
-- **선택적 집약 (Selective Focus)**: 전체 요약형 인포그래픽을 지양한다. 리포트 초안 작성 후 다음 중 가장 파급력이 큰 **1~2개 섹션만 선별**하여 시각화한다.
+- **자율적 배치 (Autonomous Placement)**: 텍스트만으로는 이해가 어렵거나 데이터 비교가 핵심인 지점, 혹은 시각적 환기가 필요한 곳에 Mermaid 다이어그램이나 인포그래픽을 자율적으로 삽입한다. 특정 섹션에 국한되지 않고 리포트 전체의 가독성을 최우선으로 한다.
+- **가독성 자가 검토 (Readability Self-Audit)**: 시각 자료 삽입 후, "이 시각 자료가 독자의 이해를 돕는가?" "텍스트의 흐름을 방해하지 않는가?" "전문적인 시각적 임팩트를 주는가?"를 스스로 검토하여 최적의 위치와 형태를 결정한다.
 - **국문 시각화 (K-Localization)**: **모든 시각 자료(인포그래픽 레이블, 다이어그램 텍스트, 데이터 테이블 항목명)는 한국어를 기본으로 작성한다.** 한국인 경영진 및 실무자 보고에 최적화된 용어 사용.
-  - **아키텍처/기술적 도약**: 복잡한 시스템의 변화나 데이터 흐름을 보여주는 `infographic`을 해당 섹션 내부에 배치.
-  - **재무적 타당성/TCO**: 정밀한 수치 비교가 필요한 경우 `data_table`을 활용.
-- **맥락적 배치 (Contextual Insertion)**: 시각 자료는 반드시 관련 논의가 시작되는 **섹션 제목(##) 바로 아래**에 배치하여 텍스트 읽기의 몰입감을 높인다.
 - **도구 활용**:
-  - **Tables (Mandatory)**: 최소 1개의 정밀 비교 테이블 포함.
-  - **Mermaid Rendered**: 표준 Mermaid syntax (` ```mermaid `)를 활용한 동적 차트.
-  - **NotebookLM Studio**: 특정 섹션의 심층 분석용 `infographic`, `data_table` 활용 (마인드맵 등 단순 텍스트 기반 에셋은 지양).
+  - **Tables (Mandatory)**: 정밀 비교가 필요한 곳에 배치.
+  - **Mermaid Rendered**: 로직 흐름, 아키텍처, 타임라인 등에 활용.
+  - **NotebookLM Studio**: 고도화된 분석용 시각 에셋 활용.
 
 ---
 
@@ -54,8 +52,8 @@ Every strategic report must follow this logical flow:
 ---
 
 ## Execution Workflow
-1.  **Research**: `research_start(mode='deep', query='...')`로 AWS vs GCP 비교 및 도메인 트렌드 분석.
-2.  **Analyze & Selection**: 리포트 초안 중 시각화가 가장 필요한 **'High-Impact 섹션'**을 1~2개 선정.
-3.  **Visual Asset Generation**: 선정된 섹션에 특화된 `infographic` 또는 `data_table`을 NotebookLM 스튜디오에서 생성.
-4.  **Drafting**: 6대 필수 구조를 지키되, 선정한 섹션 내부에 시각 자료를 맥락에 맞게 삽입.
+1.  **Research**: `research_start(mode='deep', query='...')`로 데이터 확보.
+2.  **Autonomous Content Strategy**: 리포트의 논리 구조를 설계하며 시각화가 가독성을 높일 '전략적 지점'들을 자율 선정.
+3.  **Visual Asset Generation & Insertion**: 선정된 지점에 Mermaid 또는 NotebookLM 에셋 생성 및 삽입.
+4.  **Readability Audit & Refinement**: 작성된 전체 리포트를 검토하여 시각 자료의 적절성, 텍스트와의 조화, 한국어 표현의 정확성을 최종 확인하고 보완함.
 5.  **Validation & Deploy**: `hugo` 빌드 확인 후 `main` 브랜치 배포.
