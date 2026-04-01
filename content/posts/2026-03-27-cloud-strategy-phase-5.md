@@ -82,22 +82,22 @@ graph TD
 
 | 비교 항목 | AWS Redshift (Cluster) | GCP BigQuery (Serverless) | NSoft의 전략적 판단 근거 |
 | :--- | :--- | :--- | :--- |
-|**인프라 관리 부하**| 노드 설정, 백업, 튜닝 작업 필요 |**No-Ops (완전 자동 관리)**| 인프라 운영 전문가 0명으로 운영 가능 |
-|**스케일링 민첩성**| 수 분 이상의 가동 중단/저하 수반 |**즉각적 (수천 개의 슬롯 자동 대응)**| 대규모 연말 산출 데이터 폭증에도 대응 |
-|**인공지능 통합성**| Redshift ML (한정된 알고리즘) |**BigQuery ML (SQL로 Gemini 가동)**| SQL 개발자가 즉시 AI 모델 배포 가능 |
-|**실시간 데이터 반영**| Kinesis/Firehose 등 복잡한 스택 |**BigQuery Storage Write API**| 설비 고장 데이터를 1초 내로 분석 반영 |
-|**데이터 공유 보안**| 복제 및 라이선스 복잡 |**Analytics Hub (지연 없는 원본 공유)**| 고객사/협력사와 지연 없는 데이터 생태계 |
-|**오픈 소스 호환성**| 제한적인 오픈 포맷 지원 |**BigLake (Iceberg, Delta Lake 등)**| 벤더 종속성 해결 및 데이터 통합 확장 |
+| **인프라 관리 부하** | 노드 설정, 백업, 튜닝 작업 필요 | **No-Ops (완전 자동 관리)** | 인프라 운영 전문가 0명으로 운영 가능 |
+| **스케일링 민첩성** | 수 분 이상의 가동 중단/저하 수반 | **즉각적 (수천 개의 슬롯 자동 대응)** | 대규모 연말 산출 데이터 폭증에도 대응 |
+| **인공지능 통합성** | Redshift ML (한정된 알고리즘) | **BigQuery ML (SQL로 Gemini 가동)** | SQL 개발자가 즉시 AI 모델 배포 가능 |
+| **실시간 데이터 반영** | Kinesis/Firehose 등 복잡한 스택 | **BigQuery Storage Write API** | 설비 고장 데이터를 1초 내로 분석 반영 |
+| **데이터 공유 보안** | 복제 및 라이선스 복잡 | **Analytics Hub (지연 없는 원본 공유)** | 고객사/협력사와 지연 없는 데이터 생태계 |
+| **오픈 소스 호환성** | 제한적인 오픈 포맷 지원 | **BigLake (Iceberg, Delta Lake 등)** | 벤더 종속성 해결 및 데이터 통합 확장 |
 
 ### 2.2 Vertex AI와 Gemini: 제조 현장의 AI 브레인 구축
-단순한 데이터 분석을 넘어, 구글의 초거대 AI인**Gemini Pro 1.5**는 제조 현장의 패러다임을 바꿉니다. 수백만 토큰의 컨텍스트 윈도우는 공장 내 30년치 유지보수 로그와 기계 도면, PLC 매뉴얼을 한 번에 읽어들여, 현장 초급 엔지니어가 베테랑 엔지니어 수준의 장애 조치 명령을 수행하도록 돕는 '제조 특화 LLM 에이전트'를 가능하게 합니다.
+단순한 데이터 분석을 넘어, 구글의 초거대 AI인 **Gemini Pro 1.5**는 제조 현장의 패러다임을 바꿉니다. 수백만 토큰의 컨텍스트 윈도우는 공장 내 30년치 유지보수 로그와 기계 도면, PLC 매뉴얼을 한 번에 읽어들여, 현장 초급 엔지니어가 베테랑 엔지니어 수준의 장애 조치 명령을 수행하도록 돕는 '제조 특화 LLM 에이전트'를 가능하게 합니다.
 
 ---
 
-### 2.2 Market Trends & Intelligence: 2026 글로벌 벤더 포지셔닝 및 AI 트렌드
+### 3.0 Market Trends & Intelligence: 2026 글로벌 벤더 포지셔닝 및 AI 트렌드
 
 ### 3.1 Gartner 및 IDC 데이터 전략 리포트 분석
-2026년 Gartner의 '클라우드 데이터베이스 관리 시스템(DBMS) 매직 쿼드런트' 평가 결과, Google Cloud는**실행 능력(Ability to Execute)**과**AI와의 지능형 결합**부문에서 AWS를 추월하며 리더십을 공고히 하고 있습니다. 기업들이 온프레미스에서 클라우드로 데이터 레이크를 이전할 때, BigQuery를 선택하는 비중이 75%에 달하는 주된 사유는**데이터 엔지니어링 인건비의 실질적인 절감**입니다.
+2026년 Gartner의 '클라우드 데이터베이스 관리 시스템(DBMS) 매직 쿼드런트' 평가 결과, Google Cloud는 **실행 능력(Ability to Execute)**과 **AI와의 지능형 결합**부문에서 AWS를 추월하며 리더십을 공고히 하고 있습니다. 기업들이 온프레미스에서 클라우드로 데이터 레이크를 이전할 때, BigQuery를 선택하는 비중이 75%에 달하는 주된 사유는 **데이터 엔지니어링 인건비의 실질적인 절감**입니다.
 
 ### 3.2 글로벌 탄소 배출 규제 및 ESG 경영
 GCP는 2026년 기준 'Clean Cloud Index'에서 선두를 달리고 있습니다. BigQuery의 효율적인 자원 분배 알고리즘은 AWS Redshift 대비 데이터 처리당 탄소 배출량을 약 30% 낮추는 것으로 보고되었으며, 이는 NSoft 고객 기업들의 ESG 리포팅 요건을 충족시키는 부가적인 마케팅적 우위로 작용할 것입니다.
@@ -123,11 +123,20 @@ GCP는 2026년 기준 'Clean Cloud Index'에서 선두를 달리고 있습니다
 
 데이터 자산화는 단순한 시스템 구축을 넘어 조직의 의사결정 문화를 바꾸는 과정입니다. 전략적인 3단계 접근이 필요합니다.
 
-#### 1단계: Foundation & Visibility (데이터 기반 가시성 확보 - 3개월)***Unified Data Lake 구축**: N-MES, N-WMS, 그리고 파트너사의 ERP 데이터를 BigQuery로 실시간 인입(CDC 및 Cloud Data Fusion 활용).***실시간 분석 환경 조성**: Looker Studio 및 BigQuery를 연동하여 생산 라인별 실시간 수율(Yield) 및 가동률 대시보드 구축.***데이터 거버넌스 수립**: IAM 권한 체계 정립 및 민감 데이터 암호화 정책을 통해 글로벌 수준의 보안 체계 확보.
+#### 1단계: Foundation & Visibility (데이터 기반 가시성 확보 - 3개월)
+- **Unified Data Lake 구축**: N-MES, N-WMS, 그리고 파트너사의 ERP 데이터를 BigQuery로 실시간 인입(CDC 및 Cloud Data Fusion 활용).
+- **실시간 분석 환경 조성**: Looker Studio 및 BigQuery를 연동하여 생산 라인별 실시간 수율(Yield) 및 가동률 대시보드 구축.
+- **데이터 거버넌스 수립**: IAM 권한 체계 정립 및 민감 데이터 암호화 정책을 통해 글로벌 수준의 보안 체계 확보.
 
-#### 2단계: Intelligence & Prediction (AI 기반 예측 가속화 - 6개월)***PdM(예측 유지보수) 모델 개발**: Vertex AI의 AutoML 및 Custom Training을 활용하여 설비 고장 예측 모델 학습 및 현장 배포.***Gemini 기반 현장 보조**: 설비 유지보수 매뉴얼과 과거 정비 이력을 학습한 Gemini 기반 지능형 챗봇(N-Bot) 시범 운영.***품질 분석 자동화**: Vision AI를 활용한 불량 검출 데이터를 BigQuery와 결합하여 불량 발생의 근본 원인(Root Cause) 자동 분석.
+#### 2단계: Intelligence & Prediction (AI 기반 예측 가속화 - 6개월)
+- **PdM(예측 유지보수) 모델 개발**: Vertex AI의 AutoML 및 Custom Training을 활용하여 설비 고장 예측 모델 학습 및 현장 배포.
+- **Gemini 기반 현장 보조**: 설비 유지보수 매뉴얼과 과거 정비 이력을 학습한 Gemini 기반 지능형 챗봇(N-Bot) 시범 운영.
+- **품질 분석 자동화**: Vision AI를 활용한 불량 검출 데이터를 BigQuery와 결합하여 불량 발생의 근본 원인(Root Cause) 자동 분석.
 
-#### 3단계: Autonomous & Ecosystem (자율 운영 및 데이터 생태계 확장 - 12개월~)***폐쇄루프(Closed-loop) 공정 제어**: AI의 분석 결과가 MES/WMS에 직접 피드백되어 설비 파라미터를 실시간 자동 조정하는 자율 공정(Autonomous Operation) 구현.***Supply Chain Synergy**: 협력사 및 고객사와 BigQuery Analytics Hub를 통해 실시간 재고 및 품질 데이터를 공유하여 전체 공급망의 리드타임 최적화.***AI Marketplace**: 검증된 제조 AI 모델을 솔루션화하여 유사 산업군 고객사에게 구독형(SaaS) 서비스로 제공하여 신규 수익원 창출.
+#### 3단계: Autonomous & Ecosystem (자율 운영 및 데이터 생태계 확장 - 12개월~)
+- **폐쇄루프(Closed-loop) 공정 제어**: AI의 분석 결과가 MES/WMS에 직접 피드백되어 설비 파라미터를 실시간 자동 조정하는 자율 공정(Autonomous Operation) 구현.
+- **Supply Chain Synergy**: 협력사 및 고객사와 BigQuery Analytics Hub를 통해 실시간 재고 및 품질 데이터를 공유하여 전체 공급망의 리드타임 최적화.
+- **AI Marketplace**: 검증된 제조 AI 모델을 솔루션화하여 유사 산업군 고객사에게 구독형(SaaS) 서비스로 제공하여 신규 수익원 창출.
 
 ---
 
@@ -137,7 +146,11 @@ GCP는 2026년 기준 'Clean Cloud Index'에서 선두를 달리고 있습니다
 
 제조 현장에서 BigQuery와 Vertex AI를 실전 배포할 때 엔지니어링 팀이 반드시 고려해야 할 기술적 심화 내용입니다.
 
-### Q1. BigQuery로 실시간 데이터를 쏟아부을 때 비용 폭탄을 피하는 방법은?**A**:**Storage Write API**의 정밀한 활용이 핵심입니다. 기존의 스트리밍 인서트는 건당 비용이 발생하지만, Storage Write API는 대용량 스트림을 묶어서 처리하므로 비용을 최대 50% 이상 절감하면서도 밀리초(ms) 단위의 저지연 처리를 보장합니다. 또한, 자주 쿼리하지 않는 과거 로그 데이터는**Partitioning / Clustering**설정을 통해 스캔량을 최소화해야 합니다.
+### Q1. 앨라배마 제조 공장의 레거시 시스템을 수정하지 않고 GCP와 연계할 수 있나요?
+**A**: 가능합니다. **Anthos Clusters on Bare Metal** 이 제공하는 'In-place 배포' 모델은 기존 서버의 OS 위에 바로 오케스트레이션 레이어를 씌우는 방식입니다. 따라서 애플리케이션 소스 변경 없이 컨테이너화만으로 클라우드 제어 평면(Control Plane)과 공장 현장의 데이터 자산을 안정적으로 연결할 수 있었습니다.
+
+### Q2. BigQuery로 실시간 데이터를 쏟아부을 때 비용 폭탄을 피하는 방법은?
+**A**: **Storage Write API** 의 정밀한 활용이 핵심입니다. 기존의 스트리밍 인서트는 건당 비용이 발생하지만, Storage Write API는 대용량 스트림을 묶어서 처리하므로 비용을 최대 50% 이상 절감하면서도 밀리초(ms) 단위의 저지연 처리를 보장합니다. 또한, 자주 쿼리하지 않는 과거 로그 데이터는 **Partitioning / Clustering** 설정을 통해 스캔량을 최소화해야 합니다.
 
 ### Troubleshooting: Vertex AI 모델 추론 시 발생하는 레이턴시 최적화
 1.**Online Prediction Endpoint**: 실시간 공정 제어를 위한 모델은 정적 엔드포인트 대신**L4 GPU**기반의 가속 노드를 배치하여 추론 속도를 50ms 이내로 단축합니다.
