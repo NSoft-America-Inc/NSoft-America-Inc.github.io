@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Performance on NSoft America</title><link>https://nsoft-america-inc.github.io/tags/performance/</link><description>Recent content in Performance on NSoft America</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nsoft-america-inc.github.io/tags/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>NSoft Cloud Excellence: Phase 4 - 워크로드 현대화 및 아키텍처 고도화 전략</title><link>https://nsoft-america-inc.github.io/posts/cloud/2026-03-27-cloud-strategy-phase-4/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://nsoft-america-inc.github.io/posts/cloud/2026-03-27-cloud-strategy-phase-4/</guid><description>&lt;h1 id="phase-4-nsoft-cloud-excellence---고성능-워크로드-현대화"&gt;Phase 4: NSoft Cloud Excellence - 고성능 워크로드 현대화&lt;/h1&gt;
+&lt;p&gt;본 보고서는 NSoft America의 핵심 제조 실행 시스템(MES) 및 데이터 플랫폼을 구글 클라우드(GCP) 네이티브 환경에서 최적으로 구동하기 위한 &amp;lsquo;현대화 로드맵&amp;rsquo;을 제시합니다. 레거시 종속성을 탈피하고, 클라우드 네이티브 아키텍처를 통한 서비스 가용성(SLA) 99.99% 달성을 목표로 합니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="1-google-kubernetes-engine-gke-제어의-완성"&gt;1. Google Kubernetes Engine (GKE): 제어의 완성&lt;/h2&gt;
+&lt;p&gt;GKE는 현존하는 가장 진보된 쿠버네티스 엔진입니다. NSoft MES의 마이크로서비스(MSA) 전환을 위한 핵심 인프라입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GKE Autopilot&lt;/strong&gt;: 클러스터 인프라 관리를 구글이 전담하여, NSoft 엔지니어는 비즈니스 로직 및 컨테이너화에만 집중할 수 있습니다. 이는 운영 오버헤드의 45%를 줄여줍니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;다중 리전 고가용성(Multi-Region HA)&lt;/strong&gt;: 글로벌 공장 전역에 걸친 GKE 클러스터 배포를 통해 한 개 리전의 장애 상황에서도 서비스 연속성을 보장하며, 복구 목표 시간(RTO)을 분 단위에서 초 단위로 단축합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Node-local DNS Cache&lt;/strong&gt;: 대규모 통신이 발생하는 제조 환경에서 DNS 확인 지연을 최소화하여 애플리케이션 응답 속도를 15-20% 향상시킵니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="2-cloud-run-서버리스의-민첩성"&gt;2. Cloud Run: 서버리스의 민첩성&lt;/h2&gt;
+&lt;p&gt;이벤트 기반의 소규모 제조 서비스나 API 게이트웨이는 &lt;strong&gt;Cloud Run&lt;/strong&gt;을 통해 극도의 유연성을 확보합니다.&lt;/p&gt;</description></item></channel></rss>
