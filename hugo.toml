@@ -5,7 +5,7 @@ title = "NSoft America"
 theme = "PaperMod"
 
 [params]
-  mainSections = ["posts", "cloud", "tech", "news", "guide"]
+  mainSections = ["posts"]
   defaultTheme = "dark"
   description = "NSoft America Tech Blog"
   author = "NSoft America"
@@ -41,22 +41,27 @@ theme = "PaperMod"
 [menu]
   [[menu.main]]
     name = "News"
+    identifier = "news-category"
     url = "/categories/news/"
     weight = 10
   [[menu.main]]
     name = "Tech"
+    identifier = "tech-category"
     url = "/categories/tech/"
     weight = 20
   [[menu.main]]
     name = "Cloud"
+    identifier = "cloud-category"
     url = "/categories/cloud/"
     weight = 25
   [[menu.main]]
     name = "All Posts"
+    identifier = "all-posts"
     url = "/posts/"
     weight = 30
   [[menu.main]]
     name = "About"
+    identifier = "about-page"
     url = "/about/"
     weight = 40
 
