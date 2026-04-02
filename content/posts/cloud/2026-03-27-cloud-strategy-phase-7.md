@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "NSoft Cloud Excellence: Phase 7 - 클라우드 거버넌스 완성 및 미래 제조 지능화 로드맵"
-date: 2026-04-01
-category: cloud
+date: 2026-04-01T10:00:00-05:00
 weight: 7
-tags: [governance, scaling, autonomous-factory, future-roadmap, cloud-adoption]
-author: NSoft America Engineering Team
+draft: false
+tags: ["Governance", "Scaling", "Autonomous-Factory", "Future-Roadmap", "Cloud-Adoption"]
+categories: ["Cloud"]
+description: "클라우드 거버넌스를 완성하고 미래형 자율 생산 공장(Autonomous Factory)으로 나아가기 위한 장기 로드맵입니다."
+author: "NSoft America"
 ---
 
 # Phase 7: NSoft Cloud Excellence - 지속 가능한 지능형 제조의 완성

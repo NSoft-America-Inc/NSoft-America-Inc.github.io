@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "NSoft Cloud Excellence: Phase 4 - 워크로드 현대화 및 아키텍처 고도화 전략"
-date: 2026-03-29
-category: cloud
+date: 2026-03-29T10:00:00-05:00
 weight: 4
-tags: [architecture, gke, serverless, modernization, performance]
-author: NSoft America Engineering Team
+draft: false
+tags: ["Architecture", "GKE", "Serverless", "Modernization", "Performance"]
+categories: ["Cloud"]
+description: "GKE와 서버리스 아키텍처를 활용한 워크로드 현대화 및 제조 시스템의 고가용성 구현 전략입니다."
+author: "NSoft America"
 ---
 
 # Phase 4: NSoft Cloud Excellence - 고성능 워크로드 현대화

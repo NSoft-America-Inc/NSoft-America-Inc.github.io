@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "NSoft Cloud Excellence: Phase 6 - 구글 파트너 생태계 및 전문 기술 지원 고도화 전략"
-date: 2026-03-31
-category: cloud
+date: 2026-03-31T10:00:00-05:00
 weight: 6
-tags: [partner-advantage, professional-services, google-cloud, pso, managed-services]
-author: NSoft America Engineering Team
+draft: false
+tags: ["Partner-Advantage", "Professional-Services", "Google-Cloud", "PSO", "Managed-Services"]
+categories: ["Cloud"]
+description: "구글 클라우드 파트너 생태계 활용 및 전문 기술 지원 체계 구축을 통한 비즈니스 시너지 강화 전략입니다."
+author: "NSoft America"
 ---
 
 # Phase 6: NSoft Cloud Excellence - 구글 파트너 생태계와 함께하는 동반 성장

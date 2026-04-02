@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "NSoft Cloud Excellence: Phase 3 - GCP 경제성 및 FinOps ROI 극대화 전략"
-date: 2026-03-28
-category: cloud
+date: 2026-03-28T10:00:00-05:00
 weight: 3
-tags: [finops, gcp, strategy, roi, cost-optimization]
-author: NSoft America Engineering Team
+draft: false
+tags: ["FinOps", "GCP", "Strategy", "ROI", "Cost-Optimization"]
+categories: ["Cloud"]
+description: "초 단위 과금과 커스텀 머신 타입을 활용한 GCP만의 독보적인 경제성 및 FinOps ROI 극대화 방안을 분석합니다."
+author: "NSoft America"
 ---
 
 # Phase 3: NSoft Cloud Excellence - 지능형 경제성 및 FinOps 혁신

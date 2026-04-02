@@ -1,11 +1,12 @@
 ---
-layout: post
-title: "NSoft Cloud Excellence: Phase 2 - 표준 프로토콜 지원 및 리소스 최적화 아키텍처"
-date: 2026-03-27
-category: cloud
+title: "NSoft Cloud Excellence: Phase 2 - 자원 매핑 및 클라우드 자산 최적화 전략"
+date: 2026-03-27T14:00:00-05:00
 weight: 2
-tags: [cloud, gcp, infrastructure, architecture, optimization]
-author: NSoft America Engineering Team
+draft: false
+tags: ["Resource-Mapping", "Cloud-Excellence", "Asset-Optimization", "GCP", "Engineering"]
+categories: ["Cloud"]
+description: "GCP 네이티브 환경으로의 리소스 매핑과 인프라 현대화를 통한 기술적 우위 확보 전략을 다룹니다."
+author: "NSoft America"
 ---
 
 # Phase 2: NSoft Cloud Excellence - 표준 기술 수용성 및 리소스 최적화

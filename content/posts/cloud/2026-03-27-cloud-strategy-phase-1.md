@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "NSoft Cloud Excellence: Phase 1 - 전사적 클라우드 거버넌스 및 표준 아키텍처 수립"
-date: 2026-03-27
-category: cloud
+date: 2026-03-27T10:00:00-05:00
 weight: 1
-tags: [strategy, cloud, gcp, manufacturing-IT, governance]
-author: NSoft America Engineering Team
+draft: false
+tags: ["Strategy", "Cloud", "GCP", "Manufacturing-IT", "Governance"]
+categories: ["Cloud"]
+description: "NSoft America의 글로벌 제조 IT 리더십 확보를 위한 클라우드 거버넌스 수립 및 표준 아키텍처 정의 가이드입니다."
+author: "NSoft America"
 ---
 
 # Phase 1: NSoft Cloud Excellence - 지능형 클라우드 거버넌스 및 기틀 마련

@@ -1,11 +1,12 @@
 ---
-layout: post
 title: "NSoft Cloud Excellence: Phase 5 - 데이터 포털 및 지능형 제조 인텔리전스 전략"
-date: 2026-03-30
-category: cloud
+date: 2026-03-30T10:00:00-05:00
 weight: 5
-tags: [bigquery, vertex-ai, data-intelligence, manufacturing-ai, analytics]
-author: NSoft America Engineering Team
+draft: false
+tags: ["BigQuery", "VertexAI", "Data-Intelligence", "Manufacturing-AI", "Analytics"]
+categories: ["Cloud"]
+description: "BigQuery와 Vertex AI를 활용하여 제조 데이터를 자산화하고 지능형 인사이트를 도출하는 데이터 전략입니다."
+author: "NSoft America"
 ---
 
 # Phase 5: NSoft Cloud Excellence - 데이터 가치 정기구독 모델로의 진화
