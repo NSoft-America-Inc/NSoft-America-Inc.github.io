@@ -5,6 +5,7 @@ title = "NSoft America"
 theme = "PaperMod"
 
 [params]
+  mainSections = ["posts", "cloud", "tech", "news", "guide"]
   defaultTheme = "dark"
   description = "NSoft America Tech Blog"
   author = "NSoft America"
@@ -58,4 +59,11 @@ theme = "PaperMod"
     name = "About"
     url = "/about/"
     weight = 40
+
+[permalinks]
+  posts = "/posts/:contentbasename/"
+  cloud = "/posts/:contentbasename/"
+  tech = "/posts/:contentbasename/"
+  news = "/posts/:contentbasename/"
+  guide = "/posts/:contentbasename/"
 
