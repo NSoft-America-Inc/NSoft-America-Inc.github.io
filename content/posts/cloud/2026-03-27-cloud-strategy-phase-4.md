@@ -2,7 +2,7 @@
 title: "[Report] Cloud Strategy Part 4: 하이브리드 클라우드와 제조 엣지 최적화 — Anthos 기반 Software-Defined Factory"
 date: 2026-03-29T09:00:00-05:00
 weight: 4
-draft: true
+draft: false
 tags: ["strategy", "hybrid-cloud", "Anthos", "Edge-AI", "manufacturing-IT", "executive-report"]
 categories: ["Cloud", "Strategy"]
 description: "Anthos Bare Metal을 활용한 NSoft의 'Software-Defined Factory' 구현 및 AWS Outposts 대비 CAPEX 절감 및 운영 유연성 분석 (제4부)"
@@ -82,11 +82,11 @@ Anthos를 통해 NSoft의**Edge AI Vision**알고리즘 배포 주기는 기존 
 
 #### [보안 거버넌스 리포트] 제로 트러스트(Zero Trust) 엣지 보안 체계
 
-| 보안 항목 | 기존 방식 (공장별 개별 관리) | Anthos 기반 통합 관리 (ACM) | 개선 효과 |
-| :--- | :--- | :--- | :--- |
-|**방화벽 설정**| 수동 스크립트 작성 |**IAM 기반 중앙 정책 푸시**| 인적 오류 95% 감소 |
-|**권한 관리**| 개별 리눅스 계정 관리 |**Google Workspace SSO 통합**| 퇴사자/이동자 즉각 차단 |
-|**업그레이드**| 현장 엔지니어 방문 |**클라우드 콘솔 원격 업데이트**| 유지보수 비용 60% 절감 |
+| 보안 항목       | 기존 방식 (공장별 개별 관리) | Anthos 기반 통합 관리 (ACM)     | 개선 효과               |
+| :-------------- | :--------------------------- | :------------------------------ | :---------------------- |
+| **방화벽 설정** | 수동 스크립트 작성           | **IAM 기반 중앙 정책 푸시**     | 인적 오류 95% 감소      |
+| **권한 관리**   | 개별 리눅스 계정 관리        | **Google Workspace SSO 통합**   | 퇴사자/이동자 즉각 차단 |
+| **업그레이드**  | 현장 엔지니어 방문           | **클라우드 콘솔 원격 업데이트** | 유지보수 비용 60% 절감  |
 
 ---
 
