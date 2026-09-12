@@ -2,6 +2,7 @@
 title: "Loop Engineering for SaaS: From Finished Tasks to Verified Outcomes"
 date: 2026-09-12T12:00:00-05:00
 draft: false
+translationKey: loop-engineering-saas
 tags: ["AI-Agents", "Loop-Engineering", "SaaS", "SoftwareEngineering"]
 categories: ["Tech"]
 description: "What our NSoft-SaaS development records taught us about feedback loops, integration ownership, and resuming interrupted work—and the small experiment we will try next."

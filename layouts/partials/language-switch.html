@@ -1,0 +1,19 @@
+{{- if and hugo.IsMultilingual (not site.Params.disableLangToggle) -}}
+{{- $page := . -}}
+<div class="language-switch" role="group" aria-label="{{ if eq .Lang "ko" }}언어 선택{{ else }}Language selection{{ end }}">
+  {{- range hugo.Sites -}}
+    {{- $lang := .Language.Lang -}}
+    {{- $target := false -}}
+    {{- range $page.AllTranslations -}}
+      {{- if eq .Language.Lang $lang -}}{{- $target = . -}}{{- end -}}
+    {{- end -}}
+    {{- if eq $page.Lang $lang -}}
+      <span class="language-current" lang="{{ $lang }}" aria-current="true">{{ .Language.LanguageName }}</span>
+    {{- else if $target -}}
+      <a href="{{ $target.RelPermalink }}" lang="{{ $lang }}" hreflang="{{ $lang }}" rel="alternate">{{ .Language.LanguageName }}</a>
+    {{- else -}}
+      <span class="language-unavailable" aria-disabled="true" title="{{ if eq $page.Lang "ko" }}이 문서는 영어 번역이 없습니다{{ else }}This page has no Korean translation{{ end }}">{{ .Language.LanguageName }} <small>{{ if eq $page.Lang "ko" }}(번역 없음){{ else }}(unavailable){{ end }}</small></span>
+    {{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}

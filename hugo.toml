@@ -1,6 +1,7 @@
 paginate = 4
 baseURL = "https://nsoft-america-inc.github.io/"
-languageCode = "en-us"
+defaultContentLanguage = "ko"
+defaultContentLanguageInSubdir = false
 title = "NSoft America"
 theme = "PaperMod"
 
@@ -10,6 +11,7 @@ theme = "PaperMod"
   description = "NSoft America Tech Blog"
   author = "NSoft America"
   ShowReadingTime = true
+  displayFullLangName = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   disableSpecial1stPost = true
@@ -38,41 +40,82 @@ theme = "PaperMod"
     name = "website"
     url = "https://nsoftinc.com"
 
-[menu]
-  [[menu.main]]
-    name = "News"
-    identifier = "news-category"
-    url = "/categories/news/"
-    weight = 10
-  [[menu.main]]
-    name = "Tech"
-    identifier = "tech-category"
-    url = "/categories/tech/"
-    weight = 20
-  [[menu.main]]
-    name = "Cloud"
-    identifier = "cloud-category"
-    url = "/categories/cloud/"
-    weight = 25
-  [[menu.main]]
-    name = "All Posts"
-    identifier = "all-posts"
-    url = "/posts/"
-    weight = 30
-  [[menu.main]]
-    name = "Recruiting"
-    identifier = "recruiting"
-    url = "/recruiting/"
-    weight = 35
-  [[menu.main]]
-    name = "About"
-    identifier = "about-page"
-    url = "/about/"
-    weight = 40
-
 [permalinks]
   posts = "/posts/:contentbasename/"
   cloud = "/posts/:contentbasename/"
   tech = "/posts/:contentbasename/"
   news = "/posts/:contentbasename/"
   guide = "/posts/:contentbasename/"
+
+[languages.ko]
+  languageCode = "ko-KR"
+  languageName = "한국어"
+  weight = 1
+  hasCJKLanguage = true
+  [languages.ko.params]
+    description = "NSoft America 기술 블로그"
+    [languages.ko.params.profileMode]
+      subtitle = "스마트 팩토리, 물류, AI 솔루션을 만드는 과정과 기술적 배움을 공유합니다."
+      [[languages.ko.params.profileMode.buttons]]
+        name = "전체 글 보기"
+        url = "/posts/"
+      [[languages.ko.params.profileMode.buttons]]
+        name = "회사 소개"
+        url = "https://nsoftinc.com"
+[languages.en]
+  languageCode = "en-US"
+  languageName = "English"
+  weight = 2
+  [languages.en.params.profileMode]
+    subtitle = "Innovating through Smart Factory, Logistics, and AI Solutions. We share our technical journey here."
+    [[languages.en.params.profileMode.buttons]]
+      name = "View Posts"
+      url = "/en/posts/"
+    [[languages.en.params.profileMode.buttons]]
+      name = "About NSoft"
+      url = "https://nsoftinc.com"
+
+[[languages.ko.menu.main]]
+  name = "뉴스"
+  url = "/categories/news/"
+  weight = 10
+
+[[languages.ko.menu.main]]
+  name = "기술"
+  url = "/categories/tech/"
+  weight = 20
+
+[[languages.ko.menu.main]]
+  name = "클라우드"
+  url = "/categories/cloud/"
+  weight = 30
+
+[[languages.ko.menu.main]]
+  name = "전체 글"
+  url = "/posts/"
+  weight = 40
+
+[[languages.ko.menu.main]]
+  name = "채용"
+  url = "/recruiting/"
+  weight = 50
+
+[[languages.ko.menu.main]]
+  name = "소개"
+  url = "/about/"
+  weight = 60
+
+[[languages.en.menu.main]]
+  name = "Tech"
+  url = "/categories/tech/"
+  weight = 10
+
+[[languages.en.menu.main]]
+  name = "All Posts"
+  url = "/posts/"
+  weight = 20
+
+[[languages.en.menu.main]]
+  name = "About NSoft"
+  url = "https://nsoftinc.com"
+  weight = 30
